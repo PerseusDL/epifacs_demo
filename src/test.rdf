@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:event="http://purl.org/NET/c4dm/event.owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:sam="http://dataconvervancy.org/namepspaces/sam#" xmlns:perseids="http://data.perseus.org/perseids/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <sam:Indication rdf:about="http://data.perseus.org/perseids/extract2873r3">
+        <event:agent rdf:resource="http://data.perseus.org/perseids/installation23" />
+        <event:time xsd:dateTime="20013-05-30T09:00:23" />
+        <sam:indicates rdf:resource="urn:cts:greekLit:tlg0007.tlg001.perseus-grc1.v123:1.1" />
+    </sam:Indication>
+    <sam:Indication rdf:about="http://data.perseus.org/perseids/annot7q439q8">
+        <event:agent rdf:resource="http://data.perseus.org/perseids/editorJaneDoe" />
+        <event:time xsd:dateTime="20013-05-30T09:28:50" />
+        <sam:indicates rdf:resource="http://data.perseus.org/perseids/message628" />
+    </sam:Indication>
+    <sam:Assertion rdf:about="http://data.perseus.org/perseids/notif681j">
+        <event:agent rdf:resource="http://data.perseus.org/perseids/editorJaneDoe" />
+        <event:time xsd:dateTime="20013-05-30T09:28:50" />
+        <sam:hasSubstance>
+            <sam:Proposition rdf:about="http://data.perseus.org/perseids/prop693">
+                <sam:indicatedBy>
+                    <sam:Indication rdf:about="http://data.perseus.org/perseids/edit74934g11">
+                        <event:agent rdf:resource="http://data.perseus.org/perseids/editorJaneDoe" />
+                        <event:time xsd:dateTime="20013-05-30T09:19:03" />
+                        <sam:indicates rdf:resource="urn:cts:greekLit:tlg0012.tlg001.perseus-grc1.v999:1.1-1.10" />
+                    </sam:Indication>
+                </sam:indicatedBy>
+            </sam:Proposition>
+        </sam:hasSubstance>
+        <sam:warrantedBy>
+            <sam:Observation rdf:about="http://data.perseus.org/perseids/resourceView74759t">
+                <event:agent rdf:resource="http://data.perseus.org/perseids/editorJaneDoe" />
+                <event:StartTime xsd:dateTime="20013-05-30T09:14:55" />
+                <event:EndTime xsd:dateTime="20013-05-30T09:16:41" />
+                <sam:focus rdf:resource="http://www.archive.org/stream/plutarchslives01plut2#page/n26/mode/2up" />
+            </sam:Observation>
+        </sam:warrantedBy>
+        <sam:hasPrimaryExpression rdf:resource="http://data.perseus.org/perseids/message628" />
+    </sam:Assertion>
+</rdf:RDF>
