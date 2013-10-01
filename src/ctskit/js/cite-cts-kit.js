@@ -130,10 +130,10 @@ function fixImages(whichClass){
 		
 		if ($(this).attr("src").substring(0,7) != "http://" ) {
 			$(this).attr("src",urlOfImgService + tempAttr + "&w=" + imgSize + "&request=GetBinaryImage");
-			var parts = $(this).attr("src").split(':');
+			var parts = $(this).attr("src").split('@');
 			// if we don't have coordinates, specify the 0,0,0,0 point
 			if (parts.length < 5 || parts[parts.length-1].match(/^\d,\d,\d,\d$/) == null) {
-				tempAttr = tempAttr + ':0,0,0,0';
+				tempAttr = tempAttr + '@0,0,0,0';
 			}
 			tempZoomUrl = urlOfImgService + tempAttr + "&request=GetIIPMooViewer";
 			if (zoomTarget != null && zoomTarget != '') {
