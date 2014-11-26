@@ -131,7 +131,8 @@ footer {
 }
 
 .tabs {
-    max-width: 50%;
+    width: 50%;
+    min-height: 400px;
 }
 
 .ui-tabs-nav {
@@ -173,4 +174,37 @@ footer {
 #allcredits ul {
     list-style: disc inside none;
     margin-left: .25em;
+}
+
+#allxml textarea {
+    min-height: 300px;
+}
+
+.linked_facs {
+    cursor: pointer;
+}
+
+.footertext {
+    margin-left: .5em;
+}
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 5px;
+}
+
+.floatright {
+    float: right;
+    padding-left: 5px;
+}
+.logo {
+    border: medium;
+    height: 100px;
 }

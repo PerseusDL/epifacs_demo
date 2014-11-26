@@ -6,7 +6,9 @@ function loadXMLDoc(url, xsl, elemId, params){
 	
 	xmlhttp.onreadystatechange = function() {  
 		if(xmlhttp.readyState == 4) {
-  		  putTextOntoPage("Finished loading text!", elemId);
+		  if (console) {
+  		    console.log("Finished loading text!");
+  		  }
 		  ctsResponse = xmlhttp.responseXML; 
 		  nowGetXSLT(ctsResponse, xsl, elemId, params);
   		}
@@ -23,7 +25,9 @@ function nowGetXSLT(ctsResponse, xsl, elemId, params){
 	
 	xslhttp.onreadystatechange = function() {  
 		if(xslhttp.readyState == 4) {
-		  putTextOntoPage("<p>Finished loading xslt!</p>", elemId);
+		  if (console) {
+		      console.log("Finished loading xslt!");
+		  }
 		  xsltData = xslhttp.responseXML;   		
 		  processXML(ctsResponse, xsltData, elemId, params);
   		}	
@@ -52,8 +56,10 @@ function processXML(ctsResponse, xsltData, elemId, params){
 
 
 function putTextOntoPage(htmlText, elemId){
-	document.getElementById(elemId).innerHTML = htmlText;
+	$("#"+elemId).html(htmlText);
 	$(".tabs").tabs();
+	$("#pagetitle").html($(".texttitle").html());
+	$("#allcredits").html($(".textcredits").html());
 	$("#" + elemId).removeClass("waiting");
 	// Catch any Markdown fields
 	processMarkdown(elemId);
@@ -149,9 +155,27 @@ function fixImages(whichClass){
 	});
 }
 
+function linkToImage(a_elem) {
+	var uri = jQuery(a_elem).attr("data-facs");
+	var url = null;
+	// if the facs value is a full URL, just use it
+	if (uri.match(/^http/)) {
+		url = uri;
+	// if the facs value references a CITE urn, try to bring it up in the Image Viewer
+	} else if (uri.match(/^urn:cite:/)) {
+		url = urlOfImgService + uri + "&request=GetIIPMooViewer"
+	} else {
+		// otherwise do nothing
+	}
+	if (url != null) {
+		jQuery('#ict_frame').attr("src",url);
+	}
+	return false;
+}
+
 $(document).ready(function(){
-   processMarkdown("article");
-   assignIds(textElementClass);	
-   assignCiteIds(collectionElementClass);
-   fixImages(imgElementClass);	   
+    processMarkdown("article");
+    assignIds(textElementClass);	
+    assignCiteIds(collectionElementClass);
+    fixImages(imgElementClass);	   
 });

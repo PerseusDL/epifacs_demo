@@ -90,13 +90,40 @@
               <textarea><xsl:copy-of select="//cts:reply//tei:TEI"/></textarea>
             </xsl:when>
             <xsl:otherwise>
+              <xsl:apply-templates select="//cts:reply/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
               <xsl:apply-templates select="//cts:reply//tei:TEI//tei:div[@type=$blocktype]"/>
             </xsl:otherwise>
           </xsl:choose>
         </div>
   </xsl:template>
   <xsl:template name="metadata"></xsl:template>
-
+  
+  
+  <xsl:template match="tei:titleStmt">
+    <div style="display:none;" class="texttitle">
+      <xsl:apply-templates select="tei:title"/>
+    </div>  
+    <div style="display:none;" class="textcredits">
+      <p><span class="credits-label">Editing and Translation:</span></p>
+      <xsl:apply-templates select="tei:editor"/>
+      <p><span class="credits-label">Software Development</span></p>
+      <ul><li><span class="credits-name">Interface built using the HMT CTS Kit. Copyright 2012. C. Blackwell, D.N. Smith.</span></li>
+        <li><span class="credits-name">Additional development by Bridget Almas, Perseus Project, Tufts University</span></li>	
+      </ul>
+    </div>
+  </xsl:template>
+  
+  <xsl:template match="tei:editor">
+    <p><xsl:apply-templates/>
+    <xsl:if test="@role"><span class="credits-role">(<xsl:value-of select="@role"/>)</span></xsl:if>
+    </p>
+</xsl:template>
+  
+  <xsl:template match="*[@facs]">
+    <xsl:variable name="elem_class" select="concat('tei-',local-name(.))"/>
+    <span title="Click to focus image" onclick="linkToImage(this);" class="linked_facs {$elem_class}" data-facs="{@facs}"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   <!--xsl:template match="tei:w[@rend]">
       <span class="{@rend}" urn="urn:cts:epigraphy.perseus.org:igvii.2543-2545.perseus-grc1:2543.1:Σκῆνος[1]"><xsl:value-of select="."/></span>
   </xsl:template-->

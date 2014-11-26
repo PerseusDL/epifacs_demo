@@ -44,7 +44,6 @@
         ready : function() {
             $('.cts-text').dblclick(AlpheiosCtsKit.getLemmas);
         },
-        
         tokensToUrn: function(a_baseUrn,a_node) {
         	var text = $(a_node).text().trim();
         	var lang = AlpheiosCtsKit.getLanguageForElement(a_node);
