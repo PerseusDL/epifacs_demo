@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Philolologist: Epigraphy Display Demo</title>
+	<title>Perseids: Epigraphy Display Demo</title>
 	
 	<!-- COPY FROM HERE... -->
 		
@@ -67,72 +67,32 @@
 <body>
 
 	<header>
-		<p>Philologist: Epigraphy · Marie-Claire Beaulieu, ed.</p>
+		<p>Perseus Epigraphy Collection· Marie-Claire Beaulieu, ed.</p>
 	</header>
 
-<article id="epifacs">
 
-	<h1>Epitaph of Nedymos (Thebes)</h1>
-	<h2>IG VII 2543-2545</h2>
+	<ul id="toc">
+	<li><a href="ig.vii.2543-2545.html">IG VII 2543-2545, Epitaph of Nedymos (Thebes)</a></li>
+	<li><a href="ceg.518.html">SEG 46:304 Pausimache, daughter of Phainippe and Pausanias</a></li>
+	<li><a href="ceg.524.html">CEG 524, Archippos Skambonides</a></li>
+	<li><a href="ig.ii_2.12974.html">IG II² 12974, Philostratus the son of Philoxenus</a></li>
+	</ul>
 	
-	<div id="epifacs-image-nav">
-	<!-- these should be populated automatically via an AJAX call to the ref index -->
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.1" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.8" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.9" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.10" data:target="citeimagezoom"/>
-	</div>
-        <div class="tabs screen_left">
-	        <ul>
-	            <li><a href="#alledition"><span>Normalized Text</span></a></li>
-	            <li><a href="#alldiplomatic"><span>Diplomatic</span></a></li>
-				<li><a href="#allxml"><span>XML</span></a></li>
-	        </ul>
-        	<p>
-        		<blockquote id="normalized" data:xslt-params="blockid=alledition,blocktype=edition" xml:lang="grc" class="cts-text alpheios-enabled-text" cite="urn:cts:ig:vii.2543-2545.perseus-grc1">Text will appear here.</blockquote>
-        		<blockquote id="diplomatic" data:xslt-params="blocktype=edition,edition-type=diplomatic,hide=true,blockid=alldiplomatic" xml:lang="grc" class="cts-text alpheios-enabled-text" cite="urn:cts:ig:vii.2543-2545.perseus-grc1">Text will appear here.</blockquote>
-        		<blockquote id="allannotated" style="display:none;">Under development - will display version of text which is linked to annotations (e.g. image mappings)</blockquote>
-        		<blockquote id="textxml" data:xslt-params="blocktype=edition,xml-only=true,hide=true,blockid=allxml" xml:lang="grc" class="cts-text alpheios-enabled-text" cite="urn:cts::ig.vii.2543-2545.perseus-grc1">Text will appear here.</blockquote>   		   		
-        	</p>
-        </div>
-        
-        <div class="tabs screen_right">
-        	 <ul>
-	            <li><a href="#alltranslation"><span>Translation</span></a></li>
-	            <li><a href="#allcommentary"><span>Commentary</span></a></li>
-	            <li><a href="#allbibliography"><span>Bibliography</span></a></li>
-	            <li><a href="#allcontext"><span>Context</span></a></li>
-	            <li><a href="#allcredits"><span>Credits</span></a></li>
-	        </ul>
-    		<p>
-    			<blockquote id="trans" data:xslt-params="blockid=alltranslation,blocktype=translation" class="cts-text cts-translation" cite="urn:cts:ig:vii.2543-2545.perseus-eng1">Translation will appear here.</blockquote>
-    			<blockquote id="comments" data:xslt-params="blockid=allcommentary,blocktype=commentary,hide=true" class="cts-text cts-translation" cite="urn:cts:ig:vii.2543-2545.perseus-eng1">Translation will appear here.</blockquote>
-    			<blockquote style="display:none;" id="allbibliography">Under development - will display linked bibliography here.</blockquote>
-    			<blockquote style="display:none;" id="allcontext">Under development - will display contextual information here.</blockquote>
-    			<blockquote style="display:none;" id="allcredits">
-    				<!-- TODO populate from XML metadata , Revision Desc, curation log, etc. -->
-    				<p><span class="credits-label">Editor and Translator:</span><span class="credits-name">Marie-Claire Beaulieu, PhD.</span></p>
-    				<p><span class="credits-label">Editing assistance:</span>
-    					<ul>
-    					    <li><span class="credits-name">Brigid Freymuller</span></li>
-    					    <li><span class="credits-name">Kaitlyn Bishara</span></li>
-    					</ul>
-    				</p>
-    				<p><span class="credits-label">Software Development</span>
-    				<ul><li><span class="credits-name">Interface built using the HMT CTS Kit. Copyright 2012. C. Blackwell, D.N. Smith.</span></li>
-    					<li><span class="credits-name">Additional development by Bridget Almas, Perseus Project, Tufts University</span></li>	
-    				</ul>
-    				</p>
-    			</blockquote>    			    			
-    		</p>
-        </div>	
-</article>
+	
 
 
 	<footer>
-		<p>This project received support from Tufts University, the National Endowment for the Humanities [grant HD-51548-12] and the Institute of Museum and Library Services.</p>
-		<p><span class="rights">Software licensed under the <a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL 3.0 License</a>. See also <a href="#ui-id-8">Credits</a>.</span></p>
-		<p><span class="rights">Images, text and data licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-ShareAlike 3.0 United States License.</a></span></p>		
+		<div class="logo-container floatleft">
+			<a href="http://sites.tufts.edu/perseids"><img class="left logo" src="images/perseids_logo.png"/></a>
+		</div>
+		<div class="logo-container floatright">
+			<a href="http://perseus.tufts.edu/hopper"><img class="right logo" src="images/perseus_logo.jpg"/></a>
+		</div>
+		<div class="center">
+			<p class="footertext left">This project has received support from the Andrew W. Mellon Foundation, Tufts University, the National Endowment for the Humanities [grant HD-51548-12] and the Institute of Museum and Library Services.</p>		
+			<p class="footertext left"><span class="rights">Software licensed under the <a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL 3.0 License</a>. See also <a href="#ui-id-8">Credits</a>.</span></p>
+			<p class="footertext left"><span class="rights">Images, text and data licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-ShareAlike 3.0 United States License.</a></span></p>
+		</div>		
 	</footer>
 </body>
 </html>

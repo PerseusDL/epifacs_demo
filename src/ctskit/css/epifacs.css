@@ -208,3 +208,13 @@ footer {
     border: medium;
     height: 100px;
 }
+
+#toc {
+    margin: 1em;
+    min-height: 400px;
+    vertical-align: middle;
+}
+#toc li {
+    list-style: none;
+     
+}

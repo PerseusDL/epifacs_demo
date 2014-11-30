@@ -117,8 +117,57 @@
     <p><xsl:apply-templates/>
     <xsl:if test="@role"><span class="credits-role">(<xsl:value-of select="@role"/>)</span></xsl:if>
     </p>
-</xsl:template>
+  </xsl:template>
   
+  <!-- override handling of bibl tags for now -->
+  <xsl:template match="tei:bibl">
+    <xsl:choose>
+      <xsl:when test="ancestor::tei:listBibl">
+        <li><xsl:apply-templates/></li>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+    
+  <!-- override display of div type as it is in the tabs -->
+  <xsl:template match="tei:div">
+    <!-- div[@type = 'edition']" and div[starts-with(@type, 'textpart')] can be found in htm-teidivedition.xsl -->
+    <div>
+      <xsl:if test="parent::tei:body and @type">
+        <xsl:attribute name="id">
+          <xsl:value-of select="@type"/>
+        </xsl:attribute>
+      </xsl:if>
+      <!-- Temporary headings so we know what is where -->
+      <xsl:if test="not(tei:head)">
+        <xsl:choose>
+          <xsl:when test="@type = 'translation'">
+          </xsl:when>
+          <xsl:when test="@type = 'commentary'">
+          </xsl:when>
+          <xsl:when test="@type = 'bibliography'">
+          </xsl:when>
+          <xsl:otherwise>
+            <h2>
+              <xsl:value-of select="@type"/>
+              <xsl:if test="string(@subtype)">
+                <xsl:text>: </xsl:text>
+                <xsl:value-of select="@subtype"/>
+              </xsl:if>
+            </h2>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:if>
+      
+      <!-- Body of the div -->
+      <xsl:apply-templates/>
+      
+    </div>
+    
+  </xsl:template>
+    
   <xsl:template match="*[@facs]">
     <xsl:variable name="elem_class" select="concat('tei-',local-name(.))"/>
     <span title="Click to focus image" onclick="linkToImage(this);" class="linked_facs {$elem_class}" data-facs="{@facs}"><xsl:apply-templates/></span>
