@@ -218,3 +218,26 @@ footer {
     list-style: none;
      
 }
+
+#hideictframe {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: right;
+    width: 96%;    
+}
+
+img {
+    cursor: pointer;
+}
+
+.facshint {
+    font-size: small;
+    color: blue;
+    text-decoration: underline;
+}
+
+.linked_facs.highlight {
+    color: blue;
+    text-decoration: underline;
+}

@@ -56,12 +56,15 @@ function processXML(ctsResponse, xsltData, elemId, params){
 
 
 function putTextOntoPage(htmlText, elemId){
+	// Catch any Markdown fields
 	$("#"+elemId).html(htmlText);
 	$(".tabs").tabs();
 	$("#pagetitle").html($(".texttitle").html());
 	$("#allcredits").html($(".textcredits").html());
 	$("#" + elemId).removeClass("waiting");
-	// Catch any Markdown fields
+        if ($(".linked_facs",htmlText).length > 0) {
+            $(".facshint").show();
+        }
 	processMarkdown(elemId);
 }
 
@@ -170,12 +173,28 @@ function linkToImage(a_elem) {
 	if (url != null) {
 		jQuery('#ict_frame').attr("src",url);
 	}
+        if (!jQuery("#ict_frame").is(':visible')) {
+	    jQuery('#ict_frame').show("slow", function() {$("#hideictframe").show()});
+        }
 	return false;
 }
+
+function hideImageViewer() {
+    $("#hideictframe").hide();
+    $("#ict_frame").hide("slow");
+}
+
+function toggleFacs() {
+   $(".linked_facs").toggleClass("highlight");
+
+}
+
+
 
 $(document).ready(function(){
     processMarkdown("article");
     assignIds(textElementClass);	
     assignCiteIds(collectionElementClass);
-    fixImages(imgElementClass);	   
+    //fixImages(imgElementClass);	   
+    PerseidsLD.do_simple_query();
 });
