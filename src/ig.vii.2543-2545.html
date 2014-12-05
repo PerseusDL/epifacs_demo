@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
+	<meta name="SoSOL-Sparql-Endpoint" content="http://sosol.perseus.tufts.edu/fuseki/ds/query?query="/>
 	<title>Perseids: Epigraphy Display Demo</title>
 	
 	<!-- COPY FROM HERE... -->
@@ -29,6 +30,10 @@
 
 	<!-- Markdown -->
 	<script src="ctskit/js/markdown.js" type="text/javascript"></script>
+	
+	
+	<script src="http://sosol.perseids.org/sosol/javascripts/perseids-ld.js"></script>
+	<script src="ctskit/js/perseids-tools.js"></script>
 	
 	<!-- CHS Javascript -->
 	<script src="ctskit/js/cite-cts-kit.js" type="text/javascript" ></script>
@@ -67,19 +72,25 @@
 <body>
 
 	<header>
-		<p>Perseus Epigraphy Collection· Marie-Claire Beaulieu, ed.</p>
+		<p><a href="index.html">Perseus Epigraphy Collection</a>· Marie-Claire Beaulieu, ed.</p>
 	</header>
 
 <article id="epifacs">
 
 	<h1 id="pagetitle">Loading title...</h1>
 	
-	<div id="epifacs-image-nav">
-	<!-- these should be populated automatically via an AJAX call to the ref index -->
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.1" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.8" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.9" data:target="citeimagezoom"/>
-	<img class="cite-img" src="urn:cite:perseus:epifacsimg.10" data:target="citeimagezoom"/>
+	<div id="imgthumbs">
+		<div class="perseidsld_query_obj_simple" 
+			data-sbj="urn:cts:ig:vii.2543-2545" data-verb="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
+			data-formatter="thumbs"/>
+	</div>
+	
+	<div id="ict_tool_wrapper">
+		<div style="display:none;" id="hideictframe" onclick="hideImageViewer();">Close Image Viewer</div>
+		<iframe id="ict_frame" style="display:none;" src="http://services.perseus.tufts.edu/sparqlimg/api?urn=urn:cite:perseus:epifacsimg.73&request=GetBinaryImage&w=300" width="96%" height="220px">
+			<html><head><title>Linked Image Viewer</title></head>
+				<body><div class="hint">Click on linked text to view image.</div></body></html>
+		</iframe>
 	</div>
         <div class="tabs screen_left">
 	        <ul>
