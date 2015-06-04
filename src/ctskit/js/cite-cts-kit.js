@@ -132,69 +132,16 @@ function assignCiteIds(whichClass){
 	});
 }
 
-function fixImages(whichClass){
-	$('.' + whichClass).each(function(index){
-		tempAttr = $(this).attr("src");
-		zoomTarget = $(this).attr("data:target");
-		
-		if ($(this).attr("src").substring(0,7) != "http://" ) {
-			$(this).attr("src",urlOfImgService + tempAttr + "&w=" + imgSize + "&request=GetBinaryImage");
-			var parts = $(this).attr("src").split('@');
-			// if we don't have coordinates, specify the 0,0,0,0 point
-			if (parts.length < 5 || parts[parts.length-1].match(/^\d,\d,\d,\d$/) == null) {
-				tempAttr = tempAttr + '@0,0,0,0';
-			}
-			tempZoomUrl = urlOfImgService + tempAttr + "&request=GetIIPMooViewer";
-			if (zoomTarget != null && zoomTarget != '') {
-				zoomTarget = " target='" + zoomTarget + "'";
-			}
-			$(this).wrap("<a href='" + tempZoomUrl + "'" + zoomTarget + "/>");
-		} else {
-			var tempUrl = $(this).attr("src");
-			console.log(tempUrl);
-			$(this).replaceWith("<blockquote class='cite-img' id='citeimg_" + index + "'>" + tempUrl +  "</blockquote>");
-			loadXMLDoc( tempUrl, pathToImgXSLT, "citeimg_" + index,$(this).attr("data:xslt-params"));
-		}
-	});
-}
-
-function linkToImage(a_elem) {
-	var uri = jQuery(a_elem).attr("data-facs");
-	var url = null;
-	// if the facs value is a full URL, just use it
-	if (uri.match(/^http/)) {
-		url = uri;
-	// if the facs value references a CITE urn, try to bring it up in the Image Viewer
-	} else if (uri.match(/^urn:cite:/)) {
-		url = urlOfImgService + uri + "&request=GetIIPMooViewer"
-	} else {
-		// otherwise do nothing
-	}
-	if (url != null) {
-		jQuery('#ict_frame').attr("src",url);
-	}
-        if (!jQuery("#ict_frame").is(':visible')) {
-	    jQuery('#ict_frame').show("slow", function() {$("#hideictframe").show()});
-        }
-	return false;
-}
-
-function hideImageViewer() {
-    $("#hideictframe").hide();
-    $("#ict_frame").hide("slow");
-}
-
 function toggleFacs() {
    $(".linked_facs").toggleClass("highlight");
 
 }
 
-
-
 $(document).ready(function(){
     processMarkdown("article");
     assignIds(textElementClass);	
     assignCiteIds(collectionElementClass);
-    //fixImages(imgElementClass);	   
     PerseidsLD.do_simple_query();
+    PerseidsLD.do_verb_query();
+
 });

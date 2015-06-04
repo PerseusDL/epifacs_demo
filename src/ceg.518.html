@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="SoSOL-Sparql-Endpoint" content="http://sosol.perseus.tufts.edu/fuseki/ds/query?query="/>
 	
 	<title>Perseids: Epigraphy Display Demo</title>
 	
@@ -54,14 +53,8 @@
     	var pathToXSLT = "ctskit/xsl/epifacs/epifacs-display.xsl";
     	var urlOfCTS = "http://perseids.org/alpheios/cts/xq/CTS.xq?inv=epifacs&request=GetCitableText&urn=";
 
-		/* Image Things */
-    	var imgElementClass = "cite-img";
-    	var imgSize = 200;
-    	var urlOfImgService = "http://services.perseus.tufts.edu/sparqlimg/api?urn=";
-    	var pathToImgXSLT = "ctskit/xsl/gip.xsl";
-
-		/* Collection Things */
-		var urlOfCite = "http://folio.furman.edu/cfc/api?req=GetObject&urn=";
+	/* Collection Things */
+	var urlOfCite = "http://folio.furman.edu/cfc/api?req=GetObject&urn=";
     	var collectionElementClass = "cite-collection";
     	var pathToCiteXSLT = "ctskit/xsl/citecollection.xsl";
 
@@ -80,16 +73,18 @@
 <article id="epifacs">
 
 	<h1 id="pagetitle">Loading title...</h1>
+        <div class="perseidsld_query_verb_simple"
+                    data-queryuri="http://services.perseids.org/fuseki/ds/query?query="
+                    data-verb="http://data.perseus.org/rdfvocab/cite/imageViewer"
+                    data-formatter="set_endpoint_map"
+                    data-result-id="viewer"/>
 
 	<div id="imgthumbs">
-		<div class="perseidsld_query_obj_simple" 
-			data-sbj="urn:cts:ceg:ceg.518" data-verb="http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation"
-			data-formatter="thumbs"/>
-	</div>
+		<div class="perseidsld_query_obj_simple" data-obj="urn:cts:ceg:ceg.518" data-endpoint-verb="http://data.perseus.org/rdfvocab/cite/imageServer" data-refs-verb="http://purl.org/dcterms/references" data-verb="http://www.cidoc-crm.org/cidoc-crm/P138_represents" data-queryuri="http://services.perseids.org/fuseki/ds/query?query=" data-formatter="thumbs"/> </div>
 	
 	<div id="ict_tool_wrapper">
-		<div style="display:none;" id="hideictframe" onclick="hideImageViewer();">Close Image Viewer</div>
-		<iframe id="ict_frame" style="display:none;" src="http://services.perseus.tufts.edu/sparqlimg/api?urn=urn:cite:perseus:epifacsimg.73&request=GetBinaryImage&w=300" width="96%" height="220px">
+		<div style="display:none;" id="hideictframe" onclick="PerseidsTools.hideImageViewer(event);">Close Image Viewer</div>
+		<iframe id="ict_frame" style="display:none;" src="" width="96%" height="220px">
 			<html><head><title>Linked Image Viewer</title></head>
 				<body><div class="hint">Click on linked text to view image.</div></body></html>
 		</iframe>

@@ -170,7 +170,7 @@
     
   <xsl:template match="*[@facs]">
     <xsl:variable name="elem_class" select="concat('tei-',local-name(.))"/>
-    <span title="Click to focus image" onclick="linkToImage(this);" class="linked_facs {$elem_class}" data-facs="{@facs}"><xsl:apply-templates/></span>
+    <span title="Click to focus image" onclick="PerseidsTools.do_image_link(this);" class="linked_facs {$elem_class}" data-facs="{@facs}"><xsl:apply-templates/></span>
   </xsl:template>
   
   <!--xsl:template match="tei:w[@rend]">
