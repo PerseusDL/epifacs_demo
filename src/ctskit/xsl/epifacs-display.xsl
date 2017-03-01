@@ -87,10 +87,10 @@
           </xsl:if>
           <xsl:choose>
             <xsl:when test="$xml-only">
-              <textarea><xsl:copy-of select="//cts:reply//tei:TEI"/></textarea>
+              <textarea><xsl:copy-of select="//tei:TEI"/></textarea>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:apply-templates select="//cts:reply//tei:TEI//tei:div[@type=$blocktype]"/>
+              <xsl:apply-templates select="//tei:TEI//tei:div[@type=$blocktype]"/>
             </xsl:otherwise>
           </xsl:choose>
         </div>

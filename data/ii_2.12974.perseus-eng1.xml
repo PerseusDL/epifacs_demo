@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+          <titleStmt>
+            <title>IG II² 12974, Philostratus the son of Philoxenus</title>
+            <editor role="translator">
+                <name>Daniel Orazio</name>
+            </editor>
+            <editor role="translator">
+                <name>Michael Brown</name>
+            </editor>
+            <editor role="translator">
+                <name>Devon Armstrong</name>
+            </editor>
+            <editor role="reviewer">Marie-Claire Beaulieu, Phd.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority/>
+            <idno type="urn:cts">urn:cts:ig:ii_2.12974.perseus-eng1</idno>
+            <availability>
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+            <language ident="grc"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-11-30T14:34:52.178Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized.</change>
+         <change when="2014-11-30T14:34:52.174Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+         <change when="2014-11-26T22:19:43.532Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Adding editors, titles and correcting transcription.</change>
+         <change when="2014-02-06T20:15:23.325Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas%20-%20Tufts%20Account">Finalized - Committing approved version to master repo.</change>
+         <change when="2014-02-06T20:15:23.317Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Accept - Very good translation! You will get full credit. The second line is tricky to render into English, but I think you did well to emphasize the "kai... te"</change>
+         <change when="2013-12-13T18:39:18.937Z"
+                 who="http://data.perseus.org/sosol/users/Dan%20Orazio">transcribed and translated</change>
+         <change when="2013-12-04T20:32:43+00:00" who="http://papyri.info/editor"/>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng" xml:id="urn_cts_ig_ii_2.12974.perseus-eng1">
+      <body>
+         <div xml:lang="eng" type="translation" xml:space="preserve">
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="1">Philostratos, son of Philoxenos,<w facs="urn:cite:perseus:funeraryimg.wUdglRwLMJ6@0.2012,0.4199,0.3483,0.0725"/><w facs="urn:cite:perseus:funeraryimg.wUdglRwLMJ6@0.5506,0.435,0.4324,0.0634"/><lb n="1"/></l><l n="1"><lb n="1"/></l></lg></div>
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="2">Son having the name of your father's father.<lb n="2"/></l><l n="2"><lb n="2"/></l></lg></div>
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="3">You were both a consolation and nicknamed by your parents,<lb n="3"/></l><l n="3"><lb n="3"/></l></lg></div>         
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="4">Neollarion, and the god took you away, yearned for by all.<lb n="4"/></l><l n="4"><lb n="4"/></l></lg></div>
+</div>
+      </body>
+   </text>
+</TEI>

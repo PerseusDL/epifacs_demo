@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt><title>Épigramme funéraire pour Sôsinous (Ma 769)</title>               
+                <author>Michèle Brunet and Eleonora Santin</author>
+            </titleStmt>  
+            <publicationStmt>
+                <publisher/>     
+            </publicationStmt> 
+            <sourceDesc>
+                <p></p> 
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">Anglais</language>
+                <language ident="fr">Français</language>
+                <language ident="grc">Grec ancien</language>
+                <language ident="grc-Latn">Grec translitéré</language>
+                <language ident="it">Italien</language>
+                 <language ident="la">Allemand</language> 
+            </langUsage> 
+            <textClass>
+                <keywords scheme="??????">
+                    <term>
+                        <geogName type="ancientRegion" key="Attique">Attique</geogName>
+                    </term>
+                    <term><placeName type="ancientFindspot" key="Athènes">Athènes</placeName></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+             <revisionDesc>
+                <change> 
+                    </change> 
+                </revisionDesc>
+           </teiHeader>
+   
+    <text>
+        <body>
+            <div type="apparatus" subtype="representation"> 
+            <head>Materiel complémentaire d'archive (estampages, carnets, dessins)</head>
+                <p><ref target="file:///C:/Users/Heliodora/Desktop/Sosinos_Dessin.htm">Dessin de Froehner</ref></p>
+            </div> 
+            <div type="apparatus" subtype="related" n="Louvre"> 
+            <head>Objets liés dans la collection du Louvre</head>
+                <p>Stèle funéraire de Philis, <ref target="file:///C:/Users/Heliodora/Desktop/PHI%20Sos_files/St%C3%A8le%20de%20Philis_Thasos.htm">Ma 766</ref>.<lb/>
+                Le musée du Louvre garde une série de stelès funéraires pour des hommes dont on rappelle la profession d'artisans: voir Froehner 129 (boulanger), 130 
+                (fabricant de lit) et le notre, le 131, une série qui mérite d'être présentée en gardant l'unité thématique par un rapprochement expositif virtuel ou materiel 
+                (dans les salles).  
+                </p>
+            </div>
+            <div  type="apparatus" subtype="related" n="external">
+            <head>Objets liés dans d'autres sites et collections</head>
+                    <p>a. Pour des questions de style (style classique) et thématiques (allusion à la profession et à la famille du défunt) la stèle de Sôsinos est souvent comparée à la 
+                        <ref target="http://www.britishmuseum.org/explore/highlights/highlight_objects/gr/m/gravestone_of_xanthippos.aspx">stèle de Xanthippos</ref> 
+                        gardée au British Museum (cf. <bibl>Richard T. Neer, <title>The Emergence of the Classical Style in Greek Sculpture</title>, University of Chicago, 2010, p. 208</bibl>). 
+                        <lb/>
+                        b. La figure de gauche du bloc 6 de la frise orientale du Parthénon, <ref target="http://www.parthenonfrieze.gr/#/view/eastfrieze/block6">E VI, 38</ref>.
+                    </p>
+            </div>
+            <div type="apparatus" subtype="object"> 
+            <head>Support</head>
+                <p>
+                    Dimensions: <measure unit="cm">h 95,5</measure> ; <measure unit="cm">l 62</measure> ; <measure unit="cm">ép 13</measure>. <rs type="objectType"><lb/>
+                        Stèle</rs> à naiskos (vue latérale) en <rs type="material" key="marble">marbre pentélique</rs>, à couronnement horizontale avec sept acrotères.
+                    Entre les piliers (antes?) elle porte un <rs type="sculpture">relief</rs> représentant le défunt comme un <rs type="iconography">homme barbu</rs> assis de profil sur un 
+                    <rs type="iconography">siège</rs> à haut dossier. Il porte un <rs type="iconography">himation</rs> qui retombe sur l'épaule gauche, le reste du torse est nu. 
+                    Dans la main gauche il tient un bâton et sa main droite repose sur   
+                    <ref target="http://web.me.com/tenurbm/IG-ELEONORA/Index/Pages/6._St%C3%A8les_fun%C3%A9raires.html#6">un objet de forme circulaire</ref> avec
+                    derrière un autre un peu plus large. Au sol sous le siège on voit trois éléments superposés de forme apparemment circulaire.      
+                </p>
+                </div>
+            <div  type="apparatus" subtype="inscription">
+                    <head> Inscription et mise en page </head>
+                    <p>L'inscription est gravée sur la face principale de la stèle au dessus du relief sur deux niveaux, sur la corniche on a marqué le nom, 
+                        l'origine et la profession de Sôsinous et en dessous, sur l'architrave, on a fait suivre l'épigramme en 
+                        <rs type="layout">disposition métrique</rs>, c'est à dire que la ligne correspond au vers.  
+                    </p>
+                </div>
+            <div type="apparatus" subtype="letters">
+                    <head>Lettres</head>
+                    <p>Hauteur : <measure unit="cm">1,2</measure> cm<lb/>
+                        Interligne : <measure></measure><lb/>
+                        L'écriture est parfois irrégulière: sigma à quatre branches, theta pointé.</p>
+                </div>
+            <div type= "apparatus" subtype="locations" n="findspot">
+                <head>Lieu de trouvaille</head>
+                <p>Probablement <placeName>Athènes</placeName>
+                </p>
+            </div>
+            <div type= "apparatus" subtype="locations" n="original location"> 
+                <head>Lieu d'origine</head>
+                <p>probablement <placeName><ref target="http://pleiades.stoa.org/places/579885/?searchterm=Athina">Athènes</ref></placeName> 
+                </p>
+            </div> 
+            <div type= "apparatus" subtype="locations" n="last recorded location">
+                <head>Lieu de conservation</head>
+                <p><rs type="exposé"></rs>Objet achetée à Louis François Sébastien Fauvel en 1817 par le comte Auguste de Forbin, 
+                    directeur général du Musée royal N° d'entrée LL 67 (n° usuel Ma 769). Antiquités grecques, étrusques et romaines.<lb/>Denon, entresol. 
+                </p> 
+            </div>           
+            <div type="bibliography"> 
+                <head>Bibliographie</head> 
+                <p>
+                    Ed. Boeck <bibl n="CIG">CIG <biblScope>837</biblScope></bibl> ;
+                    <bibl n="Froehner Inscriptions">Froehner, Inscriptions 131</bibl> 
+                    (<bibl><author>S. Kumanudes</author><title level="m">, Αττικής επιγραφαί επιτύμβιοι</title>, 
+                        <placeName> Athènes</placeName><date> 1871</date>, <biblScope type="item">1638</biblScope></bibl> ; 
+                    <bibl n="Kaibel">Kaibel <biblScope>54</biblScope></bibl> ; 
+                    <bibl><author>E. Hoffmann, </author><title level="m">Sylloge Epigrammatum Graecorum</title>, <placeName>Halle</placeName><date> 1893</date>, 
+                        <biblScope>82</biblScope></bibl>) ; <bibl n="IG II">IG II <biblScope>2867</biblScope></bibl> ; 
+                    <bibl n="IG II2">IG II2 <biblScope>8464</biblScope></bibl> ; 
+                    d'après l'estampage et la photo <bibl n="GVI">GVI<biblScope> 167</biblScope></bibl> (<bibl><author>G. Phfol</author>, 
+                        <title level="m">Greek Poems on Stones. I. Epitaphs. From the Seventh to the Fifth Centuries B.C.</title>,
+                        <placeName> Leiden</placeName> <date>1967</date>,<biblScope> 98</biblScope></bibl> ;
+                    <bibl><author>C. W. Clairmont</author>, <title>Gravestone and Epigram</title>, <placeName>Mainz</placeName><date> 1970</date>,
+                        <biblScope> 15, tab. 8.15</biblScope></bibl>) ; 
+                    <bibl n="CEG">CEG <biblScope>96</biblScope></bibl> ; <bibl><author>M. Mayer</author>,<title level="a">Old Man on Attic Grave Monuments</title>, <title level="j">
+                        MDAIA(A)</title> 104<date>1989</date>, <biblScope>79-82</biblScope>
+                    </bibl>
+                    (<bibl n="SEG">SEG <biblScope> 39 270</biblScope></bibl>) ; 
+                    <bibl><author>C. W. Clairmont</author>, <title level="m">Classical Attic Tombstones</title>, <placeName>Kilchberg</placeName> <date>1993-95</date>
+                        <biblScope>1.202</biblScope></bibl> (<bibl n="SEG">SEG 50 248</bibl>, observations d'Hallof) ; 
+                    <bibl n="Hamiaux, Mus. Louvre">Hamiaux, Mus. Louvre<biblScope> 140</biblScope></bibl> (<bibl n="SEG">SEG 43 115</bibl>) ; 
+                    <bibl n="IG XIII">IG I3 <biblScope>1349 bis</biblScope></bibl>.<lb/>
+                    Images : <bibl>Froehner, Les musée de France, 1873, tab. 9</bibl> ; 
+                    <bibl>Conze II 618, taf.119</bibl> ; Clairmont tab. 8.15. <lb/>
+                    Pour une déscription ponctuelle du rélief cf. en particulier<ref target= "http://www.persee.fr/web/revues/home/prescript/article/bch_0007-4217_1972_num_96_1_2146"><bibl><author> G. Daux</author>,<title level="a">Stèles funéraires et épigrammes</title>, 
+                        <title level="j">BCH</title><biblScope type="vol">96</biblScope><date>1972,</date><biblScope type="pp"> 527-528</biblScope></bibl>  
+                    </ref> (en libre accès) et <bibl>
+                            <author>Clairmont</author><date> 1970</date>, <biblScope type="pp">80</biblScope></bibl>.
+                </p> 
+                </div>
+            <div type="apparatus" subtype="description" n="date"><head>Datation</head>
+                <p>
+                    <date notBefore="-0415" notAfter="-0390">Entre la fin du Ve et le début du IVe siècle avant J.-C.</date>, 
+                    d'après l'<rs type="criteria">écriture</rs> et le style du <rs type="criteria">relief</rs>.
+                </p> 
+            </div>  
+            <div type="edition">
+                <head>Edition du texte</head>
+                 <ab>
+                     <lb n="1"/>
+                     <persName>Σωσίνος</persName> <placeName type="ethnic">Γορτύνιος</placeName> 
+                     <w lemma="χαλκόπτης" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dxalko%2Fpths">χαλκόπτης</w>.
+                     </ab>
+                       <milestone unit="section"/>
+                    <lg met="elegiac">
+                        <l n="1" met="hexameter" real="– u u – u u – – – u u – u u – u">
+                            <lb n="2"/>
+                            <w lemma="μνῆμα" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dmnh%3Dma">μνῆμα</w> 
+                            <w lemma= "δικαιοσύνη" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Ddikaiosu%2Fnh">δικαιοσύνης</w> καὶ 
+                            <w lemma="σωφροσύνη" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dswfrosu%2Fnh">σωφροσύνης</w> 
+                            <w lemma="ἀρετή" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Da%29reth%2F">ἀρετῆς </w>τε </l>                           
+                        <l n="2" met="pentameter" real="– – – – – – uu – uu –"><lb n="3"/>Σωσίν<seg real="long">ο</seg> 
+                            <w lemma="ἵστημι" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Di%28%2Fsthmi">ἔστησαν</w> 
+                            <w lemma="παῖς" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dpai%3Ds">παῖδες</w> 
+                            <w lemma="ἀποφθίνω" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Da%29pofqi%2Fnw">ἀποφθιμέν<seg real="long">ο</seg></w></l>                             
+                    </lg>   
+                <ab> Schéma métrique du distique : 
+                   héxamétre :  – uu – uu – / – – uu – uu – u <lb/>
+                   Pentamétre :  – – – – – ‖ – uu – uu – (la troisième syllabe longue est le résultat d'une sinalèfe). 
+                </ab>
+            </div>
+            <div type="apparatus">
+                <head>Apparat critique</head>
+                <p>  
+                    L. 1 le rendu graphique pour ου est o (ligne 3), donc le nom du mort au nominatif peut être soit Σωσίνους soit Σωσῖνος.
+                    Nous retenons la forme <app><rdg resp="Σωσίνος">Σωσίνος</rdg></app> = Σωσίνους (cf. Guarducci, ICret. p. 19, Lewis-Jeffery IG I3, Hallof, Daux, <foreign>contra</foreign> 
+                    Clairmont <foreign>et alii</foreign>, voir commentaire) qui convient à la métrique et à l'onomastique.<lb/>
+                    Le terme χαλκόπτης est un <foreign>hapax</foreign>. On ne le trouve, dans une forme non restituée, que dans cette inscription (mais voir aussi  
+                    <title>PCair.Goodsp.</title> xii 30). On l'a toujours expliqué comme une  
+                    <w lemma="aplologie">haplologie</w> pour <w lemma="χαλκοκόπτης">χαλκοκόπτης</w>, mot qui n'a pas non plus des attestations ultérieures 
+                    (cf. IG I3 et Hansen, <title>CEG</title> 96).     
+                </p>  
+            </div> 
+            <div type="translation"><head>Traduction</head>
+                <ab>Sôsinous de <placeName type="ethnic"><ref
+                    target="http://pleiades.stoa.org/places/589796">Gortyne</ref></placeName>, fondeur (?) de bronze.</ab> 
+                    <ab>Un monument à la justice, à la sagesse et à la vertu de Sôsinous ses enfants ont fait ériger après sa mort.</ab>
+            </div>
+            <div type="commentary"><head>Commentaire</head><p>
+                Le langage de cet hommage sculpté des enfants à leur père est assez banal, alors que peu fréquent est un lien aussi évident et fort entre inscription et monument, texte et relief. 
+                La stèle de Sôsinous représente un cas absolument remarquable de <w lemma="complémentarité iconographie-inscription">complémentarité</w> entre l'iconographie
+                et le texte. Nous avons vraiment à faire à ce qu'avec Alain Montandon, 1990  on appellera un iconotexte <note place="bottom">La notion d'iconotexte a été prémierement étudiée par 
+                    <bibl>Alain Montandon, Iconotextes, Actes du colloque international de Clermont, Paris, 1990</bibl> et elle a été efficacement reprise dans le contexte des dédicaces votives d'époque 
+                archaïque par <bibl>Katharina Lorenz, Dialectics at a standstill’: archaic kouroi-cum-epigram as I-Box, in M. Baumbach, A. Petrovic, I.Petrovic, Archaic and 
+                Classical Greek Epigram, Cambridge 2010</bibl></note>.<lb/>
+                La thématique du <w lemma= "portrait">portrait</w> comme définition sculptée d'une imagerie idéale et idéalisée de l'homme, père et citoyen, à une époque donnée 
+                (dans ce cas au IVème siècle) trouve dans la stéle de Sôsinous l'un des manifestations les plus remarquables (pour l'emploi des termes δικαιοσύνη, σωφροσύνη, 
+                ἀρετή voir Mayer, 1989). Ce ne serait pas donc sans raisons qu'on ait choisit comme modèle pour ce portrait l'une des figures divines de la frise est du Parthénon (E VI 38, voir objets liés) 
+                normalement considérée comme un Poseidon.<lb/>  
+                Ce qui d'abord frappe l'attention du lecteur-spectateur ce sont les trois éléments gravés sur et en-dessous de la corniche qu'on peut voir comme une sorte de didascalie et de complément au relief. 
+                Le message fourni par les trois mots de la ligne 1 (le titre) est évidemment le plus important à retenir : on y trouve le nom du mort, sa patrie, sa profession.<lb/>  
+                Le petit poème qui suit est placé à un niveau secondaire dans une zone de la pierre qui restait forcement un peu dans l'ombre. Ici, l'éloge de Sôsinous se relie 
+                à la dédicace faite par ses enfants, qui se sont bien acquittés de leur devoir envers leur père en faisant bâtir un monument riche et de très bonne qualité artistique.  
+                L'étalage de cet acte de devotion filiale se situe dans un ensemble de pratiques sociales qui sont d'abord ressenties comme un remerciement naturel
+                dans le cadre de l'οἶκος, mais qui sont, à la fois, une obligation établie par la loi dans le cadre plus vaste de la ville. Les sources littéraires et certaines inscriptions 
+                appellent cet ensemble de devoirs et de soins aux vieux en utilisant des termes très précis : <w lemma="γηροτροφία" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dghrotrofi%2Fa">γηροτροφία</w>, 
+                autrement dite <w lemma="γηροκομία " lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=ghrokomi/a">γηροκομία
+                </w> ou <w lemma="γηροβοσκία" lemmaRef="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=ghrokomi/a">γηροβοσκία</w>.<lb/> 
+                Le style poètique est très simple, aussi austère et mesuré d'autant que le style de la sculpture. 
+                Ce sont les principales qualités du bon citoyen et du bon père de famille qui sont mises en exergue
+                (avec les mêmes termes que ceux utilisés dans les éloges des femmes). On remarquera l'accumulation des génitifs en <w lemma="polysyndète">polysyndète</w>
+                au premier vers et le <w lemma="chiasme">chiasme syntactique</w> au deuxième vers.<lb/>
+                Onomastique : nous avons préféré la forme Σωσίνους (forme contractée à partir de Σωσίνοος) à la forme Σωσῖνος attestée en Sicile et Grande Grèce. Cf. 
+                 <ref target="http://inscriptions.packhum.org/inscriptions/main?url=oi%3Fikey%3D177917%26bookid%3D220%26region%3D13">
+                 Polis ed Olympieion 33</ref>, voir de suite les autres <ref target="file:///C:/Users/Heliodora/Desktop/PHI_Sosinos_occurrences_files/Occurrences_Sosinos_PHI.htm">  
+                     occurrences</ref> sur la base de PHI. D'après les volumes du <title>LGPN</title> et d'après <bibl>Trail, <title>Person of Ancient Athens</title>, 
+                     <biblScope>862880</biblScope></bibl>, le seul Sôsinous est le notre, mais il est aussi vrai que
+                les noms formés à partir du verbe σῴζω + substantif sont assez nombreux et bien attéstés (<foreign>e. g.</foreign> Σωσίστρατος, Σωσίπολις) et qu'une forme contractée 
+                en Attique dans une inscription funéraire pour un citoyen d'origines étrangères (un cretois) ne posait pas de problèmes au Vème-IVème av. J.-C. 
+                (voir à ce propos <bibl>L. Threatte,<title>The Grammar of Attic Inscriptions</title>, II, Morphology, p. 34</bibl>).
+                La métrique demanderait un <foreign>biceps</foreign> au premier pied du pentamétre, donc le iota ne devrait pas etre long.  
+                Dans la forme Σωσῖνος il est certainement long et nous savons qu'il l'est aussi dans le génitif Σωσίνō. Toutefois il se peut que le poète ait
+                pensé que la quantité du iota pouvait être brève et il savait  que la désinence -ου du génitif pouvait s'abrèger en hiatus (<foreign>correptio epica</foreign>). 
+                <note place="bottom">On parle d’abréviation en hiatus quand une voyelle longue, un diphtongue ou un triphtongue, placé à l’intérieur, ou, plus souvent, en fin de mot, 
+                    est abrégé devant une autre voyelle.</note><lb/>
+                    Quelques mots mérite enfin l'hapax désignant la profession de Σωσίνους qu'on a, depuis toujours, voulu lire fondeur de bronze. Ce métier normallement est désigné par deux autres 
+                    termes : le plus fréquent et générique est χαλκεύς, un autre, plus précis est χαλκότυπος. Ici on a utilisé un terme moins commun et plus spécifique : χαλκόπτης. Pourquoi?<lb/> 
+                    1.  χαλκόπτης, <foreign>i. e.</foreign> χαλκοκόπτης, composé à partir de χαλκός (χαλκοῦς? monnaie de bronze) + 
+                <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dko%2Fptw  ">κόπτω</ref> (frapper, battre), un frappeur de monnaie?<lb/>
+                2.  χαλκόπτης (intérpretation d'Henri Estienne, <title>TGL</title> et de Boeck (<title>CIG</title>) : <foreign>qui aes coquit</foreign>, χ. <foreign>non videtur</foreign> χαλκότυπος esse, sed 
+                ὃ ὀπτᾷ (<ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Do%29pta%2Fw">ὀπτάω</ref>) τὸν χαλκόν, ut 
+                <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dsplagxno%2Fpths">σπλαγχνόπτης</ref>, Plin. <title>HN</title> 22.44, 34.81, qui
+                aes coquit, temperat = fondeur de bronze, voir aussi Soph. <title>Ant.</title>, 475, σίδηρον ὀπτὸν ἐκ πυρὸς.<lb/>
+                3. χαλκόπτης, χαλκός + -οπτης (*ὁπ- théme de voir, ὄψομαι), un composé sur le genre de πανόπτης (qui voit tout) ou 
+                <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3De%29po%2Fpths">ἐπόπτης</ref> (qui observe du haut, spectateur, contrôleur), donc
+                un inspecteur du bronze.<lb/> 
+                   Il est bien évident qu'une interprétation correcte de ce mot serait une clé de lecture du relief, puisque le mot désignant le métier représente le noeud du mécanisme iconotextuel.
+                   Autrement dit, les objets representés qui étaient familiers à un Athènien de l'époque classique, mais qui ne le sont pas d'autant pour nous, étaient un signe iconographique renvoyant 
+                   immédiatement à un χαλκόπτης.   
+            </p> 
+               </div>        
+        </body>
+    </text>
+</TEI>  

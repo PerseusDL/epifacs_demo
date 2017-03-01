@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>urn:cts:greekEpi:igvii.2543-2545.TempTexts-ed-2012-4</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Perseus Project</authority>
+                <idno type="urn:cts">urn_cts_greekEpi_igvii.2543-2545.TempTexts-ed-2012-4</idno>
+                <availability>
+                    <p>This work is licensed under a
+                        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Creative 
+                            Commons Attribution-ShareAlike 3.0 License</ref>.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Making a minor note here to test something about SoSOL</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+        </profileDesc>
+        <revisionDesc>
+          <change when="2012-08-24T11:50:38.279-04:00"
+                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - ok, finalizing this test change.</change>
+          <change when="2012-08-24T11:50:38.23-04:00"
+                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - APPROVE - ok</change>
+          <change when="2012-08-24T11:46:38.016-04:00"
+                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Note added to source desc - I am testing something with SoSOL and will remove this in a subsequent submit</change>
+          <change when="2012-06-28T15:54:47.662-04:00"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing this change.</change>
+          <change when="2012-06-28T15:54:47.623-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - typo fixed</change>
+          <change when="2012-06-27T14:42:23.698-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed a typo in the Greek</change>
+          <change when="2012-06-19T11:26:10.443-04:00"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing, with additional change of textpart divs around each epigram</change>
+          <change when="2012-06-19T11:26:10.405-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - Yes, this is great! We are on the right track here!</change>
+          <change when="2012-06-19T08:11:05.574-04:00"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Added &lt;supplied&gt; tags around lost words.&#xD;
+Moved resp=Lolling etc out of text and into attribute of &lt;rdg&gt; tags&#xD;
+removed extra edition divs and renumbered lines.XML Markup Change&#xD;
+</change>
+          <change when="2012-06-18T17:07:52.298-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - ok</change>
+          <change when="2012-06-18T17:07:52.215-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - ok, found it again! the xml should be all fixed!</change>
+          <change when="2012-06-18T17:07:52.199-04:00"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - REJECT - markup problems </change>
+          <change when="2012-06-18T17:07:52.179-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - issues with apparatus</change>
+          <change when="2012-06-18T16:28:47.177-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed apparatusXML Markup Change&#xD;
+</change>
+          <change when="2012-06-18T12:04:47.196-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed app elementXML Markup Change&#xD;
+</change>
+          <change when="2012-06-15T16:07:17.073-04:00"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing for MCB</change>
+          <change when="2012-06-15T16:07:17.058-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great xml!!!!!</change>
+          <change when="2012-06-15T16:07:17.015-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits required</change>
+          <change when="2012-06-15T16:00:58.285-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - great! all done!</change>
+          <change when="2012-06-15T16:00:58.251-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great xml!!!!!</change>
+          <change when="2012-06-15T16:00:58.233-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits required</change>
+          <change when="2012-06-15T15:17:22.595-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">inserted alternate readings, fixed issues with text that is no longer legible but seen by earlier modern editorsXML Markup Change&#xD;
+</change>
+          <change when="2012-06-15T13:49:55.627-04:00"
+                 who="http://data.perseus.org/sosol/users/MarieClaire">XML Markup Change&#xD;
+</change>
+          <change when="2012-06-14T16:17:02-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+         <head xml:lang="en"/>
+         <div xml:lang="grc" type="edition" xml:space="preserve">
+<div type="textpart" n="2543">
+<lg met="hexameters">
+      <head>Part α. 2543.</head>
+        <l><lb n="1"/>Σκῆνος μὲν γενετῆρες, ἐπ<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="18" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">εὶ γέρας ἐστὶ θανοῦσι,</supplied></rdg></app></l>
+        <l><lb n="2"/>τειμῶντες κλαίεσκον ἀναισθή<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="11" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">τῳ περὶ τύμϐῳ,</supplied></rdg></app></l>
+        <l><lb n="3"/>ψυχὴ δ’ἐς τὸ δίκαιον ἔϐη· ἦν δ’<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="12" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">οὔνομα τοὐμόν</supplied></rdg></app></l>
+        <l><lb n="4"/>Νήδυμος, Ἰταλικῆς Ἀδάης <app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="15" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">παῖς ἥμερος ὄντως.</supplied></rdg></app></l>
+        <l><lb n="5"/>οὐκ ἤμην ἔμπροσθε πολ<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="19" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ὺν χρόνον, εἶτ’ ἐγενήθην</supplied></rdg></app></l>
+        <l><lb n="6"/>εἰς ὀλίγων ἐτέων ἐναρίθμ<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="14" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ιος· ἄστατος αἰών,</supplied></rdg></app></l>
+        <l><lb n="7"/>οὐκ ἀνέδραστον ἔχω<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="24" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ν ἴδιον δρόμον· ἧς δ’ ἔλαχέν τις</supplied></rdg></app></l>
+        <l><lb n="8"/>μοίρης, ταύτην ἐκτε<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="19" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">λέσει· καὶ γὰρ βασιλῆες.</supplied></rdg></app></l>
+        <l><lb n="9"/>ταῦτ’ ἐπέγραψε πα<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="21" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">τὴρ ὁ Ζώσιμος εἵνεκ’ ἐμεῖο,</supplied></rdg></app></l>
+        <l><lb n="10"/>αἴμνηστον ἔχω<app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="20" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ν ψυχῆς πόθον ἀθανάτοιο.</supplied></rdg></app></l>
+</lg>
+</div>
+<div type="textpart" n="2544">
+  <lg met="hexameters">
+        <head>Part β. 2544.</head>
+        <l><lb n="1"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="2" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">Μα</supplied></rdg></app>ρμαρέη λίθος ἰμὶ, φέρω δ’ἐν γαστέρι φῶτα</l>
+        <l><lb n="2"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="4" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">Νήδυ</supplied></rdg></app>μον ὕπνον ἔχοντα κα<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Lolling"><supplied reason="lost">λὸν φθι</supplied></rdg></app><app type="alternative"><rdg resp="Kaibel"><supplied reason="lost">καὶ ἐν φθιμένοισι παρόντα</supplied></rdg></app><app type="alternative"><rdg resp="Leake"><supplied reason="lost">καὶ ἐν θειοῖσι παρόντα</supplied></rdg></app>νοις τε παρόντα,</l>
+        <l><lb n="3"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="3" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ὃν δ</supplied></rdg></app>ῆμος χρυσῷ στεφάνῳ<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Lolling"><supplied reason="lost">κόσμησ’ ἐπὶ τ</supplied></rdg></app><app type="alternative"><rdg resp="Kaibel"><supplied reason="lost">τείμησε γεραίρων </supplied></rdg></app>ιμη.</l>
+        <l><lb n="4"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="6" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">βουλὴ τ</supplied></rdg></app>αὐτὸν ἔπραξε παρη<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Lolling Kaibel"><supplied reason="lost">γορίην ὑιοῖο</supplied></rdg></app></l>
+        <l><lb n="5"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="5" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">κεῖται</supplied></rdg></app>σῶμα λέοντος ἀ<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Lolling"><supplied reason="lost">κόσμησ’ ἐπὶ τ</supplied></rdg></app></l>
+        <l><lb n="6"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="6" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">Ζώσιμο</supplied></rdg></app>ς υἱὸς ἔγραψε, τὸ γὰρ γέ<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Lolling"><supplied reason="lost">ρας ἐστι θανόντων</supplied></rdg></app><app type="alternative"><rdg resp="Kaibel"><supplied reason="lost">ρας ἐστι θανοῦσιν</supplied></rdg></app></l>
+        <l><lb n="7"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="5" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ἔμπνο</supplied></rdg></app>υν φθενγομένην ἀδεῶς<gap reason="lost" agent="damage"/><app type="alternative"><rdg resp="Kaibel"><supplied reason="lost">μ’ἐχάραξε </supplied></rdg></app>σιδήρῳ.</l>
+        <l><lb n="8"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="7" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">ὅστις δ’ἂ</supplied></rdg></app>ν τολμᾷ θέσθαι νέκυν εἰς ἐμὲ νηδύν,</l>
+        <l><lb n="9"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="6" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">χωρὶς τ</supplied></rdg></app>ου παιδὸς πατέρος, οὗ ἔχω κατὰ γαστρός,</l>
+        <l><lb n="10"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="6" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">δώσει τ</supplied></rdg></app>ῇ τε πόλει καὶ τῷ ταμείῳ αν·μυρία.<app type="alternative"><rdg resp="Lolling"><supplied reason="lost">ἀνα μύρια</supplied></rdg></app><app type="alternative"><rdg resp="Kaibel Leake"><supplied reason="lost">δηνάρια</supplied></rdg></app></l>
+</lg>
+</div>
+<div type="textpart" n="2545">
+<lg met="trimeters">
+<head>Part γ. 2545</head>
+          <l><lb n="1"/><app type="alternative"><rdg><gap reason="lost" agent="damage" quantity="7" unit="character"/></rdg><rdg resp="previous"><supplied reason="lost">Πλήρης ὁ </supplied></rdg></app>φόρτος ἐστί μοι· καλῶς ἔχει.</l>
+          <l><lb n="2"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">κεῖται γὰρ νηδὺν εἰς ἐμὴν ὁ Νήδυμος,</supplied></rdg></app></l>
+          <l><lb n="3"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">κἀκ’ τοῦδε παιδὸς παῖς γεγὼς ὁ Νήδυμος,</supplied></rdg></app></l>
+          <l><lb n="4"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">τρίτος δὲ παιδὸς νῦν πατὴρ ὁ Ζώσιμος.</supplied></rdg></app></l>
+          <l><lb n="5"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">μύσιν θεῶν τίς μοι δότω καὶ σύνφυσιν·</supplied></rdg></app></l>
+          <l><lb n="6"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">ἤν γὰρ θίγῃ τις εἰς ἄνοιξιν τὴν ἐμήν,</supplied></rdg></app></l>
+          <l><lb n="7"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">μήτ’ ἐλπίδων ὄναιτο, μὴ τέκνων σπορᾶς,</supplied></rdg></app></l>
+          <l><lb n="8"/><app type="alternative"><rdg><gap reason="lost" agent="damage"/></rdg><rdg resp="previous"><supplied reason="lost">ἀλλ’ ἐγ γένους ὄλοιτο πάνρειζον γένος.</supplied></rdg></app></l>
+</lg>
+</div>
+</div>
+      </body>
+    </text>
+</TEI>

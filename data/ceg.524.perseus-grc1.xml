@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+            <titleStmt>
+            <title>CEG 524, Archippos Skambonides</title>
+            <editor>
+                <name>Erin Cummins</name>
+            </editor>
+            <editor>
+                <name>Anastasia Korolov</name>
+            </editor>
+            <editor role="reviewer">
+                <name>Marie-Claire Beaulieu, Phd.</name>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Perseus Digital Library</authority>
+            <idno type="urn:cts:ceg:ceg.524.perseus-grc1"/>
+            <availability>
+               <p>This work is licensed under a
+          <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Creative 
+          Commons Attribution-ShareAlike 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <bibl/>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+          <change when="2014-11-30T14:33:46.846Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized.</change>
+          <change when="2014-11-30T14:33:46.842Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+          <change when="2014-11-30T14:33:00.212Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized</change>
+          <change when="2014-11-30T14:33:00.208Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+          <change when="2014-11-26T22:28:10.788Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">adding titles and editors.</change>
+          <change when="2014-02-06T20:27:43.533Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas%20-%20Tufts%20Account">Finalized - Committing approved version to master repo.</change>
+          <change when="2014-02-06T20:27:43.526Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Accept - Good job! The text mapping is excellent, as well as the transcription and translation. A few notes:&#xD;
+-in the transcription, you are missing circumflex accents on "τõδε" and "χρυσõ". I realize that this seems to be an issue in Unicode, I will insert the accents myself.&#xD;
+-In the translation, I would recommend changing "is crowned" for "was crowned" to convey the aorist passive.&#xD;
+-I understand where you are coming from with "happened upon", but I think we can be a little less literal and go with something like "received" to convey the meaning of the sentence&#xD;
+-"crowned him" should be "crowned me"</change>
+          <change when="2013-12-10T19:32:46.596Z"
+                 who="http://data.perseus.org/sosol/users/Erin%20Cummins">Completed inscription for Archippos, submitted by Anastasia Trombly and Erin CumminsXML Markup Change&#xD;
+</change>
+          <change when="2013-12-04T20:31:54+00:00" who="http://sosol.perseids.org/sosol">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve">
+      	<lg met="">
+			<l n="1"><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.0691,0.3912,0.032,0.0498">εἴ</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.1051,0.3807,0.0601,0.0559">τις</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.1712,0.3852,0.0521,0.0483">ἐν</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.2242,0.3852,0.2032,0.0483">ἀνθρώποις</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.4274,0.3852,0.1401,0.0514">ἀρετῆς</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.5656,0.3807,0.1021,0.0589">ἕνεκ'</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.6677,0.3852,0.2923,0.0529">ἐστεφανώθη</w><lb n="1"/></l>
+<l n="2"><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.0711,0.4426,0.1952,0.0498">πλεῖστον</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.2633,0.435,0.0891,0.0514">ἐγὼ</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.3554,0.4381,0.2122,0.0468">μετέχων</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.5656,0.4381,0.0831,0.0453">τοδ'</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.6426,0.4381,0.1592,0.0498">ἔτυχον</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.8028,0.4366,0.1562,0.0529">στεφάν<supplied reason="lost">ο</supplied></w><lb n="2"/></l>
+<l n="3"><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.0711,0.4924,0.1251,0.0514">χρυσο</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.1972,0.494,0.1952,0.0514">Ἀθηναίων</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.3924,0.4879,0.047,0.0498">δὲ</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.4404,0.4864,0.2653,0.0544">ἐστεφάνωσε</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.7027,0.4894,0.1141,0.0483">πόλις</w><lb n="3"/></l>
+<l n="4"><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.0711,0.5514,0.2052,0.0498">εὐδαίμων</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.2723,0.5453,0.0541,0.0514">δὲ</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.3253,0.5468,0.1441,0.0498">ἔθανον</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.4685,0.5438,0.1381,0.0483">παίδων</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.6076,0.5453,0.1391,0.0514">παῖδας</w> <w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.7437,0.5363,0.2182,0.0619">καταλείπω<supplied reason="lost">ν</supplied></w><lb n="4"/></l>
+		</lg>
+      </div>
+      </body>
+  </text>
+</TEI>

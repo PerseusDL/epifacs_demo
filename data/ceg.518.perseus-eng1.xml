@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+           <titleStmt>
+            <title>SEG 46:304 Pausimache, daughter of Phainippe and Pausanias</title>
+            <editor>
+                <name>Hayden Lizotte</name>
+            </editor>
+            <editor>
+                <name>Siena Butterfield</name>
+            </editor>
+            <editor role="reviewer">
+                <name>Marie-Claire Beaulieu, Phd.</name>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Perseus Digital Library</authority>
+            <idno type="urn:cts">urn:cts:perseus:ceg:ceg.518.perseus-eng1</idno>
+            <availability>
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+            <language ident="grc"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-11-30T14:35:24.079Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized.</change>
+         <change when="2014-11-30T14:35:24.076Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+         <change when="2014-11-26T22:24:35.113Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">adding editors and fixing title.  </change>
+         <change when="2014-02-06T20:21:54.828Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas%20-%20Tufts%20Account">Finalized - Commiting approved version to master repo.</change>
+         <change when="2014-02-06T20:21:54.821Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Accept - Great job! This was a difficult inscription to read, I am happy to see that you were able to map the entire text! I will fix the space between the words "ὅραν" and "τόδε", which you had asked me to look into. I will also insert your names as translators of the epigram on the site. Enjoy your break!</change>
+         <change when="2013-12-10T19:33:29.503Z"
+                 who="http://data.perseus.org/sosol/user/show?user_name=Siena%2FHayden">Transcribed and Translated</change>
+         <change when="2013-12-04T20:33:09+00:00" who="http://perseids.org/editor"/>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng" xml:id="urn_cts_ceg_ceg.518.TempTrans-eng-2013-1">
+      <body>
+         <div xml:lang="eng" type="translation" xml:space="preserve">
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="1">Death is allotted to all as much as living; you left behind pitiable grief to bear, Pausimache, for your parents, your mother Phainippe and your father Pausanias, as well as a monument of your virtue and temperance to see for those who pass by.<w facs="urn:cite:perseus:funeraryimg.MwWwx48YkAH@0.0741,0.3973,0.0751,0.0317"/><w facs="urn:cite:perseus:funeraryimg.MwWwx48YkAH@0.1522,0.3958,0.1261,0.0378"/><w facs="urn:cite:perseus:funeraryimg.MwWwx48YkAH@0.2773,0.3988,0.1471,0.0423"><supplied reason="lost"/><supplied reason="lost"/></w><lb n="1"/></l></lg></div>
+         </div>
+      </body>
+   </text>
+</TEI>

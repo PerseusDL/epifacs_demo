@@ -97,7 +97,9 @@ function assignIds(whichClass){
 		if ( !($(this).hasClass("cts-clicked")) ){
 				$(this).addClass("cts-clicked"); // prevent it from re-loading on every subsequent click
 				var thisLink;
-				if (  $(this).attr("cite").substring(0,7) == "http://"  ) {
+                                if ( $(this).attr("file") ) {
+					thisLink = $(this).attr("file");
+				} else if (  $(this).attr("cite").substring(0,7) == "http://"  ) {
 					var tempPart = ( $(this).attr("cite").substring(7,$(this).attr("cite").length) );
 					thisLink = "http://" + encodeURIComponent(tempPart);
 					thisLink = $(this).attr("cite");

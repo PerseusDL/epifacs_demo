@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epitaph of Nedymos (Thebes), English Translation</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority/>
+            <idno type="urn:cts"/>
+            <availability>
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+            <language ident="grc"/>
+            <language ident="la"/>
+            <language ident="fr"/>
+            <language ident="de"/>
+            <language ident="grc-Latn"/>
+            <language ident="la-Grek"/>
+            <language ident="cop"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-10-08T07:57:18.334Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - accepting to master repo</change>
+         <change when="2014-10-08T07:57:18.326Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - Approve - Approving this change.</change>
+         <change when="2014-10-08T07:53:56.272Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">adding citation divs to translation</change>
+         <change when="2012-07-10T07:45:32.798-04:00"
+                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing this translation.</change>
+         <change when="2012-07-10T07:45:32.763-04:00"
+                 who="http://http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - translation correct. </change>
+         <change when="2012-07-09T15:49:36.199-04:00"
+                 who="http://http://data.perseus.org/sosol/users/MarieClaire">Translation added</change>
+         <change when="2012-06-22T10:42:24-04:00" who="SoSOL"/>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng" xml:id="urn_cts_greekEpi_igvii.2543-2545.TempTrans-eng-2012-7">
+      <body>
+         <div xml:lang="eng" type="translation" xml:space="preserve">
+<div type="textpart" subtype="epitaph" n="2543"><p>My parents cried over my body around the unfeeling grave, since this is the honor due to the dead, but my soul went towards its just place. My name was Nedymos, the gentle child of Italian Adae. I did not live for a long time, but I was among men for only a few years; the course of my life was unsteady, slippery, so much so that it hardly seems to be mine; whatever destiny one gets is the one he fulfills, and it is so even for kings. My father Zosimos wrote this on my account, in his ever-mindful regret for my immortal soul.</p></div>
+<div type="textpart" subtype="epitaph" n="2544"><p>I am a marble stone, I bear in my belly a sleeping man, Nedymos […] whom the people honored with a gold crown. The Boule did this […] The body of a lion crouches over […] His son Zosimos wrote this, because […] Whoever dares to place a body in my belly, besides that of this boy’s father, which I hold in my belly, will pay [a large sum] to the city and the treasury.</p></div>
+<div type="textpart" subtype="epitaph" n="2545"><p>My load is full; this is well. For Nedymos lies here in my belly, and the son who was born from his son, Nedymos, and third now Zosimos, the father of this child. Let one of the gods grant me to be closed and all of one piece, and if someone reaches to open me, let his hopes come to no benefit, let him not beget children, but let his line perish with all its roots.</p></div>
+         </div>
+      </body>
+   </text>
+</TEI>

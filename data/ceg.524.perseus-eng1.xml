@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CEG 524, Archippos Skambonides</title>
+            <editor role="translator">
+                <name>Erin Cummins</name>
+            </editor>
+            <editor role="translator">
+                <name>Anastasia Korolov</name>
+            </editor>
+            <editor role="reviewer">
+                <name>Marie-Claire Beaulieu, Phd.</name>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Perseus Digital Library</authority>
+            <idno type="urn:cts">urn:cts:ceg:ceg.524.perseus-eng1"</idno>
+            <availability>
+               <p>
+                  <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/"/>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+            <language ident="grc"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2014-11-30T14:33:47.014Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized.</change>
+         <change when="2014-11-30T14:33:47.01Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+         <change when="2014-11-30T14:33:00.388Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalized</change>
+         <change when="2014-11-30T14:33:00.384Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Approve - Great!</change>
+         <change when="2014-11-26T22:28:12.948Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">adding titles and editors.</change>
+         <change when="2014-02-06T20:27:43.675Z"
+                 who="http://data.perseus.org/sosol/users/Bridget%20Almas%20-%20Tufts%20Account">Finalized - Committing approved version to master repo.</change>
+         <change when="2014-02-06T20:27:43.668Z"
+                 who="http://data.perseus.org/sosol/users/Marie-Claire%20B">Vote - Accept - Good job! The text mapping is excellent, as well as the transcription and translation. A few notes:&#xD;
+-in the transcription, you are missing circumflex accents on "τõδε" and "χρυσõ". I realize that this seems to be an issue in Unicode, I will insert the accents myself.&#xD;
+-In the translation, I would recommend changing "is crowned" for "was crowned" to convey the aorist passive.&#xD;
+-I understand where you are coming from with "happened upon", but I think we can be a little less literal and go with something like "received" to convey the meaning of the sentence&#xD;
+-"crowned him" should be "crowned me"</change>
+         <change when="2013-12-10T19:32:47.982Z"
+                 who="http://data.perseus.org/sosol/users/Erin%20Cummins">Completed inscription for Archippos, submitted by Anastasia Trombly and Erin CumminsXML Markup Change&#xD;
+</change>
+         <change when="2013-12-04T20:31:54+00:00" who="http://sosol.perseids.org/sosol"/>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng" xml:id="urn_cts_ceg_ceg.524.TempTrans-eng-2013-1">
+      <body>
+         <div xml:lang="eng" type="translation" xml:space="preserve">
+            <div xml:lang="grc" type="edition" xml:space="preserve"><lg met=""><l n="1">If someone among men is crowned on account of excellence<w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.0691,0.3912,0.032,0.0498"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.1051,0.3807,0.0601,0.0559"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.1712,0.3852,0.0521,0.0483"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.2242,0.3852,0.2032,0.0483"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.4274,0.3852,0.1401,0.0514"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.5656,0.3807,0.1021,0.0589"/><w facs="urn:cite:perseus:funeraryimg.pctg5jbBYUs@0.6677,0.3852,0.2923,0.0529"/><lb n="1"/></l><l n="2">I, sharing it the most, happened upon this crown<w/><w/><w/><w/><w/><w/><lb n="2"/></l>
+<l n="3">of gold: and the city of Athenians crowned him<w/><w/><w/><w/><w/><w/><lb n="3"/></l>
+<l n="4">I died happily leaving behind children of my children<w/><w/><w/><w/><w/><w/><lb n="4"/></l>
+</lg></div>
+         </div>
+      </body>
+   </text>
+</TEI>
