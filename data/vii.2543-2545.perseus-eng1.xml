@@ -3,19 +3,24 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Nedymos (Thebes), English Translation</title>
+            <title>IG VII 2543-2545, Epitaph of Nedymos (Thebes)</title>
+            <editor role="translator">
+               <name>Marie-Claire Beaulieu, Phd.</name>
+            </editor>
          </titleStmt>
          <publicationStmt>
-            <authority/>
-            <idno type="urn:cts"/>
+            <authority>Perseus  Digital Library</authority>
+            <idno type="urn:cts">urn:cts:ig:vii.2543-2545.perseus-eng1</idno>
             <availability>
-               <p>
-                  <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/"/>
-               </p>
+               <p>This work is licensed under a <ref type="license"
+                  target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+                  Attribution-ShareAlike 3.0 License</ref>.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p/>
+            <p>
+               <bibl/>
+            </p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>

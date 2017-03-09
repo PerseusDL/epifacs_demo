@@ -4,11 +4,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>urn:cts:greekEpi:igvii.2543-2545.TempTexts-ed-2012-4</title>
+                <title>IG VII 2543-2545, Epitaph of Nedymos (Thebes)</title>
+                <editor>
+                    <name>Marie-Claire Beaulieu, Phd.</name>
+                </editor>
             </titleStmt>
             <publicationStmt>
-                <authority>Perseus Project</authority>
-                <idno type="urn:cts">urn_cts_greekEpi_igvii.2543-2545.TempTexts-ed-2012-4</idno>
+                <authority>Perseus  Digital Library</authority>
+                <idno type="urn:cts">urn:cts:ig:vii.2543-2545.perseus-grc1</idno>
                 <availability>
                     <p>This work is licensed under a <ref type="license"
                             target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
@@ -16,7 +19,9 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Making a minor note here to test something about SoSOL</p>
+                <p>
+                    <bibl/>
+                </p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -26,6 +31,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-03-09" who="Bridget Almas">Updated filedesc</change>
             <change when="2017-03-09" who="Bridget Almas">Inserted Commentary and Bibliography from Marie-Claire Beaulieu</change>
             <change when="2012-08-24T11:50:38.279-04:00"
                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - ok,
