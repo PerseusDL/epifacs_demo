@@ -10,9 +10,9 @@
                 <authority>Perseus Project</authority>
                 <idno type="urn:cts">urn_cts_greekEpi_igvii.2543-2545.TempTexts-ed-2012-4</idno>
                 <availability>
-                    <p>This work is licensed under a
-                        <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Creative 
-                            Commons Attribution-ShareAlike 3.0 License</ref>.</p>
+                    <p>This work is licensed under a <ref type="license"
+                            target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+                            Attribution-ShareAlike 3.0 License</ref>.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -21,71 +21,268 @@
         </fileDesc>
         <profileDesc>
             <langUsage>
-            <language ident="en">English</language>
-            <language ident="grc">Greek</language>
-         </langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
-          <change when="2012-08-24T11:50:38.279-04:00"
-                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - ok, finalizing this test change.</change>
-          <change when="2012-08-24T11:50:38.23-04:00"
-                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - APPROVE - ok</change>
-          <change when="2012-08-24T11:46:38.016-04:00"
-                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Note added to source desc - I am testing something with SoSOL and will remove this in a subsequent submit</change>
-          <change when="2012-06-28T15:54:47.662-04:00"
-                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing this change.</change>
-          <change when="2012-06-28T15:54:47.623-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - typo fixed</change>
-          <change when="2012-06-27T14:42:23.698-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed a typo in the Greek</change>
-          <change when="2012-06-19T11:26:10.443-04:00"
-                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing, with additional change of textpart divs around each epigram</change>
-          <change when="2012-06-19T11:26:10.405-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - Yes, this is great! We are on the right track here!</change>
-          <change when="2012-06-19T08:11:05.574-04:00"
-                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Added &lt;supplied&gt; tags around lost words.&#xD;
-Moved resp=Lolling etc out of text and into attribute of &lt;rdg&gt; tags&#xD;
-removed extra edition divs and renumbered lines.XML Markup Change&#xD;
-</change>
-          <change when="2012-06-18T17:07:52.298-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - ok</change>
-          <change when="2012-06-18T17:07:52.215-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - ok, found it again! the xml should be all fixed!</change>
-          <change when="2012-06-18T17:07:52.199-04:00"
-                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - REJECT - markup problems </change>
-          <change when="2012-06-18T17:07:52.179-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - issues with apparatus</change>
-          <change when="2012-06-18T16:28:47.177-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed apparatusXML Markup Change&#xD;
-</change>
-          <change when="2012-06-18T12:04:47.196-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">fixed app elementXML Markup Change&#xD;
-</change>
-          <change when="2012-06-15T16:07:17.073-04:00"
-                 who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing for MCB</change>
-          <change when="2012-06-15T16:07:17.058-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great xml!!!!!</change>
-          <change when="2012-06-15T16:07:17.015-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits required</change>
-          <change when="2012-06-15T16:00:58.285-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - great! all done!</change>
-          <change when="2012-06-15T16:00:58.251-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great xml!!!!!</change>
-          <change when="2012-06-15T16:00:58.233-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits required</change>
-          <change when="2012-06-15T15:17:22.595-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">inserted alternate readings, fixed issues with text that is no longer legible but seen by earlier modern editorsXML Markup Change&#xD;
-</change>
-          <change when="2012-06-15T13:49:55.627-04:00"
-                 who="http://data.perseus.org/sosol/users/MarieClaire">XML Markup Change&#xD;
-</change>
-          <change when="2012-06-14T16:17:02-04:00" who="http://papyri.info/editor">Automated creation from template</change>
-      </revisionDesc>
+            <change when="2017-03-09" who="Bridget Almas">Inserted Commentary and Bibliography from Marie-Claire Beaulieu</change>
+            <change when="2012-08-24T11:50:38.279-04:00"
+                who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - ok,
+                finalizing this test change.</change>
+            <change when="2012-08-24T11:50:38.23-04:00"
+                who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - APPROVE -
+                ok</change>
+            <change when="2012-08-24T11:46:38.016-04:00"
+                who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Note added to
+                source desc - I am testing something with SoSOL and will remove this in a subsequent
+                submit</change>
+            <change when="2012-06-28T15:54:47.662-04:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing
+                this change.</change>
+            <change when="2012-06-28T15:54:47.623-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - typo
+                fixed</change>
+            <change when="2012-06-27T14:42:23.698-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">fixed a typo in the
+                Greek</change>
+            <change when="2012-06-19T11:26:10.443-04:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing,
+                with additional change of textpart divs around each epigram</change>
+            <change when="2012-06-19T11:26:10.405-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - Yes, this is
+                great! We are on the right track here!</change>
+            <change when="2012-06-19T08:11:05.574-04:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">Added &lt;supplied&gt;
+                tags around lost words.&#xD; Moved resp=Lolling etc out of text and into attribute
+                of &lt;rdg&gt; tags&#xD; removed extra edition divs and renumbered lines.XML Markup
+                Change&#xD; </change>
+            <change when="2012-06-18T17:07:52.298-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - ok</change>
+            <change when="2012-06-18T17:07:52.215-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - ok, found it
+                again! the xml should be all fixed!</change>
+            <change when="2012-06-18T17:07:52.199-04:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">Vote - REJECT - markup
+                problems </change>
+            <change when="2012-06-18T17:07:52.179-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - issues with
+                apparatus</change>
+            <change when="2012-06-18T16:28:47.177-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">fixed apparatusXML Markup
+                Change&#xD; </change>
+            <change when="2012-06-18T12:04:47.196-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">fixed app elementXML Markup
+                Change&#xD; </change>
+            <change when="2012-06-15T16:07:17.073-04:00"
+                who="http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - Finalizing for
+                MCB</change>
+            <change when="2012-06-15T16:07:17.058-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great
+                xml!!!!!</change>
+            <change when="2012-06-15T16:07:17.015-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits
+                required</change>
+            <change when="2012-06-15T16:00:58.285-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Finalized - great! all
+                done!</change>
+            <change when="2012-06-15T16:00:58.251-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - APPROVE - great
+                xml!!!!!</change>
+            <change when="2012-06-15T16:00:58.233-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">Vote - REJECT - edits
+                required</change>
+            <change when="2012-06-15T15:17:22.595-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">inserted alternate readings,
+                fixed issues with text that is no longer legible but seen by earlier modern
+                editorsXML Markup Change&#xD; </change>
+            <change when="2012-06-15T13:49:55.627-04:00"
+                who="http://data.perseus.org/sosol/users/MarieClaire">XML Markup Change&#xD; </change>
+            <change when="2012-06-14T16:17:02-04:00" who="http://papyri.info/editor">Automated
+                creation from template</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
-         <head xml:lang="en"/>
-         <div xml:lang="grc" type="edition" xml:space="preserve">
+            <head xml:lang="en"/>
+            <div type="commentary">
+                <p>This white marble sarcophagus is located in the Church of St-Luke, which is
+                    itself on the outskirts of modern Thiva, where the village of Tabakides
+                    described by Spon and Wheler used to be. The church was built upon the remains
+                    of the precinct of Apollo Ismenius. Numerous later Christian burials are also
+                    found in the area, which contain Late Roman pottery and early Christian lamps
+                    (Keramopoulos 1924).</p>
+                <p>According to a long-lived popular tradition, the sarcophagus contained the
+                    remains of St-Luke. Because the saint, who practiced medicine, was thought to
+                    have the power of curing diseases of the eyes, the top of the sarcophagus was
+                    worn smooth by devotees who came to touch it over the centuries. The sarcophagus
+                    is beautifully decorated. The operculum is made to resemble a covering of leaves
+                    or shingles and a cross with spear and sponge decorates the front.</p>
+                <p>In view of the location of the sarcophagus and the lettering of the inscriptions,
+                    scholars are mostly in agreement regarding its date. Leake indicates that it
+                    certainly dates after 300 AD, Kaibel assigns a date in the third or fourth
+                    century, and Trombley opts for a date in the late fourth century, since,
+                    following Vatin, he considers that the temple of Apollo Ismenius was probably
+                    abandoned some time after the reign of the tolerant co-emperors Valens and
+                    Valentinian I (364-371 AD), and then re-used as a Christian necropolis.</p>
+                <p>The sarcophagus bears three inscriptions. On the right side, divided in two
+                    panels, are found 10 hexameters (part α) and a rosette. The left side bears 10
+                    more hexameters (part β), underneath which are found 8 trimeters (part γ). The
+                    inscription suffered much damage over the years. In the early 19th century,
+                    Clarke reported that the buttress of one of the niches of the altar of the
+                    chapel was erected against the sarcophagus and left only a small part of the
+                    inscription visible. Apparently, part γ was still clearly visible in 1835, when
+                    Leake transcribed it. Further damage occurred over the years, and today, the
+                    entire back section of the sarcophagus is integrated to the church wall. The
+                    niche seen by Clarke also still stands on the right side of the sarcophagus, and
+                    part γ (except for the first trimeter and about half of the second) is almost
+                    entirely hidden by the rise of the church floor. Despite these issues, the text
+                    of part α is securely established by DuLoir’s reading from 1654. Scholarly
+                    editions include: Boeckh, CIG 1656 (only part α); Leake, Travels in Northern
+                    Greece, vol. 2, p. 233, 1835, reprint 1967 (includes all three parts); Welcker,
+                    Rhen.Mus. 4. 1845.236; Keil, Syllog. Inscr.Boet. 182; Kaibel, Epig. Graec. 502;
+                    R. Ellis, Hermes. 14. 1879.259; Lolling I.G. VII 2543-2545.</p>
+                <p>The sequence of the deaths commemorated by the three inscriptions on the
+                    sarcophagus is controversial. According to Leake, Zosimos (1) commissioned the
+                    first inscription (part α) for his son Nedymos (1). Then Zosimos (2), the son of
+                    Nedymos (1), commissioned the second inscription (part β) to commemorate the
+                    honors the city granted his father (a gold crown). Finally, the third
+                    inscription (part γ) states that the sarcophagus contains the bodies of Nedymos
+                    (1), his grandson Nedymos (2), and Nedymos (2)’s father, Zosimos (2).</p>
+                <p>According to Keil (followed by Kaibel and Lolling), Nedymos (1) died first. His
+                    epitaph is part β, which is therefore the oldest of the three. Then came the
+                    epitaph of his grandson, also named Nedymos (2) (part α), which was inscribed on
+                    the opposite side of the sarcophagus. Finally, Zosimos, son of Nedymos (1) and
+                    father of Nedymos (2) died and was buried in the sarcophagus. His epitaph was
+                    inscribed under part β, the epitaph of his father. Both parts α and β were
+                    commissioned by Zosimos for his father and son, respectively.</p>
+                <p>The language of the inscription is Atticizing and influenced by the traditions of
+                    epitaph-writing as well as Homeric language. The expression γέρας ἐστὶ θανοῦσι
+                    (part α, line 1) recalls the Homeric γέρας ἐστὶ θανόντων (e.g. Il. 16.457) and
+                    aeolic genitives are also found in part α line 9 (ἐμεῖο) and line 10
+                    (ἀθανάτοιο). That the inscription was Christian is securely established by the
+                    expressed belief in the soul’s departure towards its just place (or Justice
+                    itself) in part α line 3 and in the immortality of the soul in part α line
+                    10.</p>
+                <p>This white marble sarcophagus is located in the Church of St-Luke, which is
+                    itself on the outskirts of modern Thiva, where the village of Tabakides
+                    described by &lt;:Spon, Jacob, oyage d'Italie, de Dalmatie, de Grèce et du
+                    Levant, Amsterdam, 1678|bibl/papyri.info/biblio/13255:&gt;and &lt;:Wheler, Sir
+                    George, A Journey into Greece, London, 1682|bibl/papyri.info/biblio/no
+                    bibliography records found:>used to be. The church was built upon the remains of
+                    the precinct of Apollo Ismenius. Numerous later Christian burials are also found
+                    in the area, which contain Late Roman pottery and early Christian lamps
+                    (&lt;:Keramopoulos, A.D. Παλαιαι χριστιανικαι και βυζαντιακαι ταφαι εν Θηβαις,
+                    Arch.Delt. 10, 1924, 124-136.|bibl/papyri.info/biblio/3616:&gt;).</p>
+                <p>According to a long-lived popular tradition, the sarcophagus contained the
+                    remains of St-Luke. Because the saint, who practiced medicine, was thought to
+                    have the power of curing diseases of the eyes, the top of the sarcophagus was
+                    worn smooth by devotees who came to touch it over the centuries. The sarcophagus
+                    is beautifully decorated. The operculum is made to resemble a covering of leaves
+                    or shingles and a cross with spear and sponge decorates the front.</p>
+                <p>In view of the location of the sarcophagus and the lettering of the inscriptions,
+                    scholars are mostly in agreement regarding its date. &lt;:Leake, W.M., Travels
+                    in Northern Greece, vol. 2, Amsterdam, 1835, reprint
+                    1967.|bibl/papyri.info/biblio/no bibliography records
+                    found|p=222-224:&gt;indicates that it certainly dates after 300 AD, &lt;:Kaibel,
+                    G. Epigrammata Graeca ex lapidibus conlecta, Berlin,
+                    1878|bibl/papyri.info/biblio/34092|ch=502:&gt;assigns a date in the third or
+                    fourth century, and &lt;:Trombley, Frank R., Boeotia in Late Antiquity:
+                    Epigraphic Evidence on Society, Economy, and Christianization, in Boiotika.
+                    Vortraege vom 5. Internationalen Boeotien-Kolloquium, Beister, H. and Buckler,
+                    J. eds. Munich, 1989, 216-228.|bibl/papyri.info/biblio/13368|p=222:&gt;opts for
+                    a date in the late fourth century, since, following Vatin, he considers that the
+                    temple of Apollo Ismenius was probably abandoned some time after the reign of
+                    the tolerant co-emperors Valens and Valentinian I (364-371 AD), and then re-used
+                    as a Christian necropolis.</p>
+                <p>The sarcophagus bears three inscriptions. On the right side, divided in two
+                    panels, are found 10 hexameters (part α) and a rosette. The left side bears 10
+                    more hexameters (part β), underneath which are found 8 trimeters (part γ). The
+                    inscription suffered much damage over the years. In the early 19th century,
+                    Clarke reported that the buttress of one of the niches of the altar of the
+                    chapel was erected against the sarcophagus and left only a small part of the
+                    inscription visible. Apparently, part γ was still clearly visible in 1835, when
+                    Leake transcribed it. Further damage occurred over the years, and today, the
+                    entire back section of the sarcophagus is integrated to the church wall. The
+                    niche seen by Clarke also still stands on the right side of the sarcophagus, and
+                    part γ (except for the first trimeter and about half of the second) is almost
+                    entirely hidden by the rise of the church floor. Despite these issues, the text
+                    of part α is securely established by DuLoir’s reading from 1654. Scholarly
+                    editions include: Boeckh, CIG 1656 (only part α); &lt;:Leake, W.M., Travels in
+                    Northern Greece, vol. 2, Amsterdam, 1835, reprint
+                    1967.|bibl/papyri.info/biblio/no bibliography records
+                    found|p=222-224:&gt;(includes all three parts); &lt;:Welcker, F.G., Spicilegium
+                    Epigrammatum Graecorum, Museum fuer Philologie, 3, 1845,
+                    236-239.|bibl/papyri.info/biblio/no bibliography records found|ch=6:&gt;;
+                    &lt;:Keil, K. Sylloge Inscriptionum Boeoticarum, Leipzig,
+                    1847.|bibl/papyri.info/biblio/42186|p=182:&gt;; &lt;:Kaibel, G. Epigrammata
+                    Graeca ex lapidibus conlecta, Berlin,
+                    1878|bibl/papyri.info/biblio/34092|ch=502:&gt;; &lt;:Ellis, R., Emendationes
+                    Inscriptionum, Hermes, 14, 1879, 258-260.|bibl/papyri.info/biblio/4291:&gt;;
+                    Lolling I.G. VII 2543-2545.</p>
+                <p>The sequence of the deaths commemorated by the three inscriptions on the
+                    sarcophagus is controversial. According to Leake, Zosimos (1) commissioned the
+                    first inscription (part α) for his son Nedymos (1). Then Zosimos (2), the son of
+                    Nedymos (1), commissioned the second inscription (part β) to commemorate the
+                    honors the city granted his father (a gold crown). Finally, the third
+                    inscription (part γ) states that the sarcophagus contains the bodies of Nedymos
+                    (1), his grandson Nedymos (2), and Nedymos (2)’s father, Zosimos (2).</p>
+                <p>According to Keil (followed by Kaibel and Lolling), Nedymos (1) died first. His
+                    epitaph is part β, which is therefore the oldest of the three. Then came the
+                    epitaph of his grandson, also named Nedymos (2) (part α), which was inscribed on
+                    the opposite side of the sarcophagus. Finally, Zosimos, son of Nedymos (1) and
+                    father of Nedymos (2) died and was buried in the sarcophagus. His epitaph was
+                    inscribed under part β, the epitaph of his father. Both parts α and β were
+                    commissioned by Zosimos for his father and son, respectively.</p>
+                <p>The language of the inscription is Atticizing and influenced by the traditions of
+                    epitaph-writing as well as Homeric language. The expression γέρας ἐστὶ θανοῦσι
+                    (part α, line 1) recalls the Homeric γέρας ἐστὶ θανόντων (e.g. Il. 16.457) and
+                    aeolic genitives are also found in part α line 9 (ἐμεῖο) and line 10
+                    (ἀθανάτοιο). That the inscription was Christian is securely established by the
+                    expressed belief in the soul’s departure towards its just place (or Justice
+                    itself) in part α line 3 and in the immortality of the soul in part α line
+                    10.</p>
+            </div>
+            <div type="bibliography">
+                <bibl><author><surname>Ellis</surname>, <forename>R.</forename></author>,
+                        <title>Emendationes Inscriptionum</title>, <title>Hermes</title>,<biblScope
+                        unit="volume">14</biblScope>, <date>1879</date>, <biblScope unit="page"
+                        >258-260</biblScope></bibl>
+                <bibl><author><surname>Kaibel</surname>, <forename>G.</forename></author>, <title
+                        xml:lang="lat">Epigrammata Graeca ex lapidibus conlecta</title>,
+                        <pubPlace>Berlin</pubPlace>, <date>1878</date></bibl>
+                <bibl><author><surname>Keil</surname>, <forename>K.</forename></author>, <title
+                        xml:lang="lat">Sylloge Inscriptionum Boeoticarum</title>,
+                        <pubPlace>Leipzig</pubPlace>, <date>1847</date></bibl>
+                <bibl><author><surname>Keramopoulos</surname>, <forename>A.D.</forename></author>,
+                        <title xml:lang="grc">Παλαιαι χριστιανικαι και βυζαντιακαι ταφαι εν
+                        Θηβαις</title>, <title>Arch.Delt.</title>, <biblScope unit="volume"
+                        >10</biblScope>, <date>1924</date>, <biblScope unit="page"
+                        >124-136</biblScope></bibl>
+                <bibl><author><surname>Leake</surname>, <forename>W.M.</forename></author>, <title
+                        xml:lang="eng">Travels in Northern Greece</title>,
+                        <pubPlace>Amsterdam</pubPlace>, <biblScope unit="volume">2</biblScope>,
+                        <date>1835</date> reprint <date>1967</date></bibl>
+                <bibl><author><surname>Spon</surname>, <forename>Jacob</forename></author>, <title
+                        xml:lang="fra">Voyage d'Italie, de Dalmatie, de Grèce et du Levant</title>,
+                        <pubPlace>Amsterdam</pubPlace>, <date>1678</date></bibl>
+                <bibl><author><surname>Trombley</surname>, <forename>Frank R.</forename></author>,
+                        <title xml:lang="eng">Boeotia in Late Antiquity: Epigraphic Evidence on
+                        Society, Economy, and Christianization</title>, in <title xml:lang="de"
+                        >Boiotika. Vortraege vom 5. Internationalen Boeotien-Kolloquium</title>,
+                        <pubPlace>Munich</pubPlace>, <editor><surname>Beister</surname>,
+                            <forename>H.</forename> and <surname>Buckler</surname>,
+                            <forename>J.</forename></editor>, <date>1989</date>, <biblScope
+                        unit="page">216-228</biblScope></bibl>
+                <bibl><author><surname>Welcker</surname>, <forename>F.G.</forename></author>, <title
+                        xml:lang="lat">Spicilegium Epigrammatum Graecorum</title>,<title>Museum fuer
+                        Philologie</title>, <biblScope unit="volume">3</biblScope>,
+                        <date>1845</date>, <biblScope unit="page">236-239</biblScope></bibl>
+                <bibl><author><surname>Wheler</surname>, <forename>Sir. George</forename></author>,
+                        <title xml:lang="eng">A Journey into Greece</title>,
+                        <pubPlace>London</pubPlace>, <date>1682</date></bibl>
+            </div>
+            <div xml:lang="grc" type="edition" xml:space="preserve">
 <div type="textpart" n="2543">
 <lg met="hexameters">
       <head>Part α. 2543.</head>
@@ -130,6 +327,6 @@ removed extra edition divs and renumbered lines.XML Markup Change&#xD;
 </lg>
 </div>
 </div>
-      </body>
+        </body>
     </text>
 </TEI>
