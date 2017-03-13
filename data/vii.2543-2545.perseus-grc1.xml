@@ -10,7 +10,7 @@
                 </editor>
             </titleStmt>
             <publicationStmt>
-                <authority>Perseus  Digital Library</authority>
+                <authority>Perseus Digital Library</authority>
                 <idno type="urn:cts">urn:cts:ig:vii.2543-2545.perseus-grc1</idno>
                 <availability>
                     <p>This work is licensed under a <ref type="license"
@@ -32,7 +32,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2017-03-09" who="Bridget Almas">Updated filedesc</change>
-            <change when="2017-03-09" who="Bridget Almas">Inserted Commentary and Bibliography from Marie-Claire Beaulieu</change>
+            <change when="2017-03-09" who="Bridget Almas">Inserted Commentary and Bibliography from
+                Marie-Claire Beaulieu</change>
             <change when="2012-08-24T11:50:38.279-04:00"
                 who="http://http://data.perseus.org/sosol/users/Bridget%20Almas">Finalized - ok,
                 finalizing this test change.</change>
@@ -250,43 +251,58 @@
                     10.</p>
             </div>
             <div type="bibliography">
-                <bibl><author><surname>Ellis</surname>, <forename>R.</forename></author>,
-                        <title>Emendationes Inscriptionum</title>, <title>Hermes</title>,<biblScope
-                        unit="volume">14</biblScope>, <date>1879</date>, <biblScope unit="page"
-                        >258-260</biblScope></bibl>
-                <bibl><author><surname>Kaibel</surname>, <forename>G.</forename></author>, <title
-                        xml:lang="lat">Epigrammata Graeca ex lapidibus conlecta</title>,
-                        <pubPlace>Berlin</pubPlace>, <date>1878</date></bibl>
-                <bibl><author><surname>Keil</surname>, <forename>K.</forename></author>, <title
-                        xml:lang="lat">Sylloge Inscriptionum Boeoticarum</title>,
-                        <pubPlace>Leipzig</pubPlace>, <date>1847</date></bibl>
-                <bibl><author><surname>Keramopoulos</surname>, <forename>A.D.</forename></author>,
-                        <title xml:lang="grc">Παλαιαι χριστιανικαι και βυζαντιακαι ταφαι εν
-                        Θηβαις</title>, <title>Arch.Delt.</title>, <biblScope unit="volume"
-                        >10</biblScope>, <date>1924</date>, <biblScope unit="page"
-                        >124-136</biblScope></bibl>
-                <bibl><author><surname>Leake</surname>, <forename>W.M.</forename></author>, <title
-                        xml:lang="eng">Travels in Northern Greece</title>,
-                        <pubPlace>Amsterdam</pubPlace>, <biblScope unit="volume">2</biblScope>,
-                        <date>1835</date> reprint <date>1967</date></bibl>
-                <bibl><author><surname>Spon</surname>, <forename>Jacob</forename></author>, <title
-                        xml:lang="fra">Voyage d'Italie, de Dalmatie, de Grèce et du Levant</title>,
-                        <pubPlace>Amsterdam</pubPlace>, <date>1678</date></bibl>
-                <bibl><author><surname>Trombley</surname>, <forename>Frank R.</forename></author>,
-                        <title xml:lang="eng">Boeotia in Late Antiquity: Epigraphic Evidence on
-                        Society, Economy, and Christianization</title>, in <title xml:lang="de"
-                        >Boiotika. Vortraege vom 5. Internationalen Boeotien-Kolloquium</title>,
-                        <pubPlace>Munich</pubPlace>, <editor><surname>Beister</surname>,
-                            <forename>H.</forename> and <surname>Buckler</surname>,
-                            <forename>J.</forename></editor>, <date>1989</date>, <biblScope
-                        unit="page">216-228</biblScope></bibl>
-                <bibl><author><surname>Welcker</surname>, <forename>F.G.</forename></author>, <title
-                        xml:lang="lat">Spicilegium Epigrammatum Graecorum</title>,<title>Museum fuer
-                        Philologie</title>, <biblScope unit="volume">3</biblScope>,
-                        <date>1845</date>, <biblScope unit="page">236-239</biblScope></bibl>
-                <bibl><author><surname>Wheler</surname>, <forename>Sir. George</forename></author>,
-                        <title xml:lang="eng">A Journey into Greece</title>,
-                        <pubPlace>London</pubPlace>, <date>1682</date></bibl>
+                <list>
+                    <item>
+                        <bibl><author><surname>Ellis</surname>, <forename>R.</forename></author>,
+                                <title>Emendationes Inscriptionum</title>,
+                                <title>Hermes</title>,<biblScope unit="volume">14</biblScope>,
+                                <date>1879</date>, <biblScope unit="page"
+                        >258-260</biblScope></bibl></item>
+                    <item>
+                        <bibl><author><surname>Kaibel</surname>, <forename>G.</forename></author>,
+                                <title xml:lang="lat">Epigrammata Graeca ex lapidibus
+                                conlecta</title>, <pubPlace>Berlin</pubPlace>,
+                            <date>1878</date></bibl></item>
+                    <item><bibl><author><surname>Keil</surname>, <forename>K.</forename></author>,
+                                <title xml:lang="lat">Sylloge Inscriptionum Boeoticarum</title>,
+                                <pubPlace>Leipzig</pubPlace>, <date>1847</date></bibl></item>
+                    <item><bibl><author><surname>Keramopoulos</surname>,
+                                <forename>A.D.</forename></author>, <title xml:lang="grc">Παλαιαι
+                                χριστιανικαι και βυζαντιακαι ταφαι εν Θηβαις</title>,
+                                <title>Arch.Delt.</title>, <biblScope unit="volume">10</biblScope>,
+                                <date>1924</date>, <biblScope unit="page"
+                        >124-136</biblScope></bibl></item>
+                    <item><bibl><author><surname>Leake</surname>,
+                            <forename>W.M.</forename></author>, <title xml:lang="eng">Travels in
+                                Northern Greece</title>, <pubPlace>Amsterdam</pubPlace>, <biblScope
+                                unit="volume">2</biblScope>, <date>1835</date> reprint
+                                <date>1967</date></bibl></item>
+                    <item><bibl><author><surname>Spon</surname>,
+                            <forename>Jacob</forename></author>, <title xml:lang="fra">Voyage
+                                d'Italie, de Dalmatie, de Grèce et du Levant</title>,
+                                <pubPlace>Amsterdam</pubPlace>, <date>1678</date></bibl></item>
+                    <item><bibl><author><surname>Trombley</surname>, <forename>Frank
+                                R.</forename></author>, <title xml:lang="eng">Boeotia in Late
+                                Antiquity: Epigraphic Evidence on Society, Economy, and
+                                Christianization</title>, in <title xml:lang="de">Boiotika.
+                                Vortraege vom 5. Internationalen Boeotien-Kolloquium</title>,
+                                <pubPlace>Munich</pubPlace>, <editor><surname>Beister</surname>,
+                                    <forename>H.</forename> and <surname>Buckler</surname>,
+                                    <forename>J.</forename></editor>, <date>1989</date>, <biblScope
+                                unit="page">216-228</biblScope></bibl></item>
+                    <item>
+                        <bibl><author><surname>Welcker</surname>,
+                            <forename>F.G.</forename></author>, <title xml:lang="lat">Spicilegium
+                                Epigrammatum Graecorum</title>,<title>Museum fuer
+                            Philologie</title>, <biblScope unit="volume">3</biblScope>,
+                                <date>1845</date>, <biblScope unit="page"
+                        >236-239</biblScope></bibl></item>
+                    <item>
+                        <bibl><author><surname>Wheler</surname>, <forename>Sir.
+                                George</forename></author>, <title xml:lang="eng">A Journey into
+                                Greece</title>, <pubPlace>London</pubPlace>,
+                            <date>1682</date></bibl></item>
+                </list>
             </div>
             <div xml:lang="grc" type="edition" xml:space="preserve">
 <div type="textpart" n="2543">
